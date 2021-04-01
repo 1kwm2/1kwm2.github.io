@@ -79,8 +79,7 @@ docs:
     href:
 
 
-
-
+`
 
 
 
@@ -89,6 +88,11 @@ docs:
 
 
 linksblogs:
+  card26:
+    title: anese
+    href: https://www.anese.es/noticias-del-sector/
+    src: https://www.anese.es/wp-content/uploads/2019/01/anese.png
+
   card25:
     title: fundacionrenovables
     href: https://fundacionrenovables.org/documentos/

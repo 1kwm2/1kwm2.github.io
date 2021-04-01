@@ -1,0 +1,75 @@
+<!-- <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark"> -->
+  
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top " style="background-color: #b3f31f;">
+  <div class="container">
+    <a class="navbar-brand" href="#">1kwm2</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <!-- <li class="nav-item dropup"> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Autoconsumo</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            {% for _, item in data.solares.items() %}
+            <li><a class="dropdown-item" href="{{ item.href }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Auditoria Energetica</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            {% for _, item in data.auditorias.items() %}
+            <li><a class="dropdown-item" href="{{ item.href }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Estudios tecnicos</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            {% for _, item in data.estudios_tecnicos.items() %}
+            <li><a class="dropdown-item" href="{{ item.href }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Ayudas FEDER</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            {% for _, item in data.carousels.items() %}
+            <li><a class="dropdown-item" href="{{ item.href }}">{{ item.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Ayuda</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            <li><a role="button" class="dropdown-item" href="https://1kwm2.com/documentacion/">Ayuda</a>
+            </li>
+            <li><a class="dropdown-item" href="https://4ch7re1re3.execute-api.eu-west-1.amazonaws.com/dev">Contacto</a>
+            </li>
+            <li><a role="button" class="dropdown-item" href="#bblog">Blog</a>
+            </li>
+            <li><a onclick="document.getElementById('bookmarks').click()" role="button" class="dropdown-item"
+                href="#bblog">bookmarks</a>
+            </li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Zona Privada</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

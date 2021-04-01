@@ -1,0 +1,17 @@
+<!-- <hr class=" my-5"> -->
+<div class="container">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    {% for _, item in data.estudios_tecnicos.items() %}
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='{{ item.img }}' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.title }}</h5>
+          <p class="card-text">{{ item.text }}.</p>
+          <a href="{{ item.href}}" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

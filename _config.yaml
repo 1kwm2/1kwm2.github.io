@@ -1,0 +1,460 @@
+
+
+
+carousels:
+  carousel0:
+    img: static/img/zorrogallinas.png
+    title: Estudio Independiente y Gratuito
+    text: No proveemos equipos ni instalaciones.
+    href: https://0gtg5y9qsk.execute-api.eu-west-1.amazonaws.com/dev/
+    
+  carousel1:
+    img: static/img/solar-4824555_640.jpg
+    title: Programa de ayudas FEDER
+    text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    
+  carousel2:
+    img: static/img/solar-panel-918492_640.jpg
+    title: Programa de ayudas FEDER
+    text: PYME y gran empresa sector industrial 
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
+  carousel3:
+    img: static/img/energy-3125125_640.jpg
+    title: Programa de ayudas FEDER
+    text: Instalaciones de producción de energía térmica con fuentes de energía renovable
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    
+  carousel4:
+    img: static/img/car-3117778_640.jpg
+    title: Programa de ayudas FEDER
+    text: Implantación de recarga de VE MOVALT infraestructura
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
+  carousel5:
+    img: static/img/solar-energy-3297945_640.jpg
+    title: Programa de ayudas FEDER
+    text: PYME y gran empresa sector industrial
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
+  carousel6:
+    img: static/img/2021-03-24_13-30.png
+    title: Programa de ayudas FEDER
+    text: Implantación de recarga de VE MOVALT infraestructura
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    
+
+
+
+
+
+
+
+
+docs:
+  d01:
+    title: Guia_para_Memoria_Descriptiva_Programa_Ayudas_AGE_V3
+    href: https://ca.sede.idae.gob.es/lang/extras/tramites-servicios/2017/05_Renovacion_energetica_de_edificios_e_infraestructuras_de_la_AGE/06_Guia_para_Memoria_Descriptiva_Programa_Ayudas_AGE_V3.pdf
+  d02:
+    title: TRAMITES Y SERVICIOS (AYUDAS IDAE)
+    href: https://notificaciones.idae.gob.es/notificaciones/
+  d03:
+    title: ayudas a la inversión en instalaciones de generación de energía eléctrica
+    href: https://www.boe.es/boe/dias/2020/08/05/pdfs/BOE-A-2020-9262.pdf
+  d04:
+    title:
+    href:
+  d05:
+    title:
+    href:
+  d06:
+    title:
+    href:
+  d07:
+    title:
+    href:
+  d08:
+    title:
+    href:
+
+
+
+
+
+
+
+
+
+
+
+linksblogs:
+  card25:
+    title: fundacionrenovables
+    href: https://fundacionrenovables.org/documentos/
+    src: https://fundacionrenovables.org/wp-content/uploads/2020/09/Logo_FR_Pos-web.png
+    
+  card23:
+    title: ases
+    href: https://ases.org/solartoday/
+    src: https://ases.org/wp-content/uploads/2019/02/ASES_logo.svg
+    
+  card23:
+    title: ases
+    href: https://ases.org/solartoday/
+    src: https://ases.org/wp-content/uploads/2019/02/ASES_logo.svg
+    
+  card23:
+    title: ases
+    href: https://ases.org/solartoday/
+    src: https://ases.org/wp-content/uploads/2019/02/ASES_logo.svg
+    
+  card24:
+    title: renewableenergyworld
+    href: https://www.renewableenergyworld.com/energy-efficiency/
+    src: https://dqbx58m08igv.cloudfront.net/wp-content/uploads/2019/11/logo-renewableenergyworld.png
+    
+  card23:
+    title: ases
+    href: https://ases.org/solartoday/
+    src: https://ases.org/wp-content/uploads/2019/02/ASES_logo.svg
+  card22:
+    title: PVGIS
+    href: https://ec.europa.eu/jrc/en/news-list
+    src: https://ec.europa.eu/jrc/sites/jrcsh/files/button1.png
+        
+  card21:
+    title: NREL
+    href: https://www.nrel.gov/news/
+    src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/National_Renewable_Energy_Laboratory_logo_%282_rows%29.jpg/1024px-National_Renewable_Energy_Laboratory_logo_%282_rows%29.jpg
+        
+  card20:
+    title: REN21
+    href: https://www.ren21.net/news/ren21-news/
+    src: https://www.ren21.net/wp-content/uploads/2019/05/logo-ren21.png
+        
+  card19:
+    title: EIA
+    href: https://www.eia.gov/
+    src: https://upload.wikimedia.org/wikipedia/commons/6/6f/EIA_logo.jpg
+        
+  card18:
+    title: IEA
+    href: https://www.iea.org/analysis
+    src: https://qualitee.eu/wp-content/uploads/IEA-logo-2.png
+        
+  card17:
+    title: BL
+    href: https://newscenter.lbl.gov/
+    src: https://eesa.lbl.gov/research-at-a-glance/wp-content/uploads/sites/39/2020/09/4_BL_Horiz_Pos.png
+      
+  
+  card16:
+    title: buildup
+    href: https://www.buildup.eu/en/news
+    src: https://www.buildup.eu/sites/default/files/logos/01_build-up.jpg
+      
+  card15:
+    title: BOMA
+    href: https://www.boma.org/BOMA/
+    src: https://www.boma.org/images/bomaLogos/logo2.png
+    
+  card14:
+    title: EVO
+    href: https://evo-world.org/en/news-media/evo-news
+    src: https://evo-world.org/images/design/evo-logo-270x51.png 
+  
+  card13:
+    title: European Energy Efficiency Platform
+    href: https://e3p.jrc.ec.europa.eu/content%3Ff%5B0%5D%3Dtype%3Apublication
+    src: https://ec.europa.eu/wel/template-2012/images/logo/logo_en.gif
+  card12:
+    title: Anese
+    href: https://www.anese.es/noticias-de-anese/
+    src: https://www.anese.es/wp-content/uploads/2019/01/anese.png
+  card11:
+    title: Fenie
+    href: https://www.fenie.es/actualidad/
+    src: https://www.fenie.es/wp-content/uploads/2016/04/FENIE_2016_logotipo.jpg
+  card10:
+    title: UNEF
+    href: https://unef.es/blog/
+    src: https://unef.es/wp-content/uploads/2020/02/2020-logo-unef.png
+  card9:
+    title: Agencia Andaluza de la Energia
+    href: https://www.agenciaandaluzadelaenergia.es/es/informacion-energetica/ahorrate-energia
+    src: https://www.agenciaandaluzadelaenergia.es/sites/default/files/media/galeria/logo-junta-2.svg
+  card0:
+    title: CNMC
+    href: https://blog.cnmc.es/
+    src: https://www.cnmc.es/sites/default/files/CNMC_Logotipo.png
+  card1:
+    title: Greenpeace
+    href: https://es.greenpeace.org/es/que-puedes-hacer-tu/consumo/ahorro-energia/
+    src: https://es.greenpeace.org/es/wp-content/themes/gp/assets/images/greenpeace-logo-verde.svg
+  card2:
+    title: IDAE
+    href: https://laenergiadeluzia.es/
+    src: https://www.idae.es/profiles/idae/themes/idae_static/logo.png
+  card3:
+    title: NASA
+    href: https://climate.nasa.gov/blog/
+    src: https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg
+  card4:
+    title: EERE
+    href: https://www.energy.gov/eere/about-us/eere-blog
+    src: https://www.energy.gov/sites/all/themes/clean_energy/images/logo_seal.png
+  card5:
+    title: UNE
+    href: https://revista.une.org/
+    src: https://revista.une.org/images/une_logo.png
+  card6:
+    title: ashrae
+    href: https://spain-ashrae.org/blog/
+    src: https://spain-ashrae.org/wp-content/uploads/logos.jpg
+  card7:
+    title: ree
+    href: https://www.ree.es/es/blog-entrelineas
+    src: https://upload.wikimedia.org/wikipedia/commons/5/5f/Red_El%C3%A9ctrica_logo.svg
+  card8:
+    title: energystar
+    href: https://www.energystar.gov/
+    src: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Energy_Star_logo.svg/1024px-Energy_Star_logo.svg.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blogs:
+  card11:
+    id: exampleModal10
+    img: static/img/2021-03-14_21-05.png
+    img1: static/img/2021-03-14_21-05.png
+    title: TRAMITACIÓN ADMINISTRATIVA DE LAS INSTALACIONES DE GENERACIÓN DE ENERGÍA ELÉCTRICA EN RÉGIMEN DE AUTOCONSUMO EN LA COMUNIDAD AUTÓNOMA DE ANDALUCÍA
+    text: 
+      Se publica el siguiente manual donde se detallan los pasos a seguir en dicho proceso de legalización de la instalación
+    href: https://www.juntadeandalucia.es/organismos/haciendayfinanciacioneuropea/areas/energia/autoconsumo.html
+    text1: Lo primero que hay que comprobar es que la instalación eléctrica es correcta y está vigente. Si todo es correcto, puedes solicitar el cambio a tu empresa eléctrica.La empresa tiene 5 días (desde que lo pides) para que entre en vigor la nueva potencia contratada. Si en 5 días no se ha tramitado la solicitud, la compañía deberá compensarte con 30€. La empresa tiene un plazo máximo de 15 días (desde que lo pides) para que entre en vigor la nueva potencia contratada.Al bajar la potencia el distribuidor le cambiará el ICP para adecuarlo a la nueva potencia. Esta gestión te costará 9,044760€ + IVA.El cuadro muestra las potencias disponibles para los contratos de la tarifa de último recurso (TUR). Dentro de ese menú podemos elegir la potencia que se ajuste a nuestras necesidades.
+    text2: Flexibilizar la potencia contratada      La potencia contratada es la potencia máxima que se puede consumir de forma simultánea. Dicho de otra manera, es la capacidad que tenemos de conectar a la vez varios aparatos sin que “salten los plomos”. Si esto sucede, es que la potencia que tenemos contratada es inferior a nuestras necesidades. Pero, en general, la situación suele ser la contraria, la potencia que contratamos es superior a la que realmente necesitamos.
+    text3: Reducir esa potencia que tenemos contratada es el consejo número 1 para intentar reducir nuestra factura. Otra de las medidas que introdujo el Real Decreto-ley es la flexibilización de la potencia contratada, ya no hay escalones y el consumidor puede contratar la potencia en múltiplos de 0,1 kW (es decir, puedes pasar de 4,6 kW a 4,5 kW, 4,4 kW, 4,3 kW etc. A modo de ejemplo, bajar la potencia por ejemplo, 0,5 kW tiene unos ahorros anuales de unos 26 euros (impuestos incluidos).
+    href1: 
+
+  card1:
+    id: exampleModal
+    img: static/img/2020-12-15_20-46.png
+    img1: static/img/2020-12-15_20-46.png
+    title: Bajar la potencia contratada
+    text: Si, finalmente, llegas a la conclusión de que tienes contratada más potencia de la que necesitas, puedes solicitar a tu compañía una disminución de los Kw contratados. De hecho, existen unas potencias normalizadas, dependiendo del Interruptor del Control de Potencia que tengamos.
+    text1: Lo primero que hay que comprobar es que la instalación eléctrica es correcta y está vigente. Si todo es correcto, puedes solicitar el cambio a tu empresa eléctrica.La empresa tiene 5 días (desde que lo pides) para que entre en vigor la nueva potencia contratada. Si en 5 días no se ha tramitado la solicitud, la compañía deberá compensarte con 30€. La empresa tiene un plazo máximo de 15 días (desde que lo pides) para que entre en vigor la nueva potencia contratada.Al bajar la potencia el distribuidor le cambiará el ICP para adecuarlo a la nueva potencia. Esta gestión te costará 9,044760€ + IVA.El cuadro muestra las potencias disponibles para los contratos de la tarifa de último recurso (TUR). Dentro de ese menú podemos elegir la potencia que se ajuste a nuestras necesidades.
+    text2: Flexibilizar la potencia contratada      La potencia contratada es la potencia máxima que se puede consumir de forma simultánea. Dicho de otra manera, es la capacidad que tenemos de conectar a la vez varios aparatos sin que “salten los plomos”. Si esto sucede, es que la potencia que tenemos contratada es inferior a nuestras necesidades. Pero, en general, la situación suele ser la contraria, la potencia que contratamos es superior a la que realmente necesitamos.
+    text3: Reducir esa potencia que tenemos contratada es el consejo número 1 para intentar reducir nuestra factura. Otra de las medidas que introdujo el Real Decreto-ley es la flexibilización de la potencia contratada, ya no hay escalones y el consumidor puede contratar la potencia en múltiplos de 0,1 kW (es decir, puedes pasar de 4,6 kW a 4,5 kW, 4,4 kW, 4,3 kW etc. A modo de ejemplo, bajar la potencia por ejemplo, 0,5 kW tiene unos ahorros anuales de unos 26 euros (impuestos incluidos).
+    href: https://blog.cnmc.es/2013/11/04/consejos-para-reducir-la-factura-de-la-luz-i/
+    href1: https://blog.cnmc.es/2013/11/04/consejos-para-reducir-la-factura-de-la-luz-i/
+
+  card2:
+    id: exampleModaljiji
+    img: static/img/2020-12-15_20-28.png
+    img1: static/img/2020-12-15_20-46.png
+    title: BAJAR EL IMPACTO MEDIOAMBIENTAL DE MI CONSUMO
+    text:  Compruebe al final de su factura y contemple la posibilidad de cambiar de compañía eléctrica, ademas de ser una gestión que puede implicar un importante ahorro económico en la factura de la luz. El cliente puede considerar que paga demasiado, lo que le impulsa a buscar nuevas ofertas en el mercado de electricidad y realizar un traspaso a otra empresa energética.
+    text1: En la CNMC hemos explicado cómo un consumidor puede ahorrar si opta por contratar la tarifa con discriminación horaria (¿recuerdas nuestro podcast?). Pues bien, igual no te has fijado en tu factura pero las comercializadoras de referencia -aquellas autorizadas para ofrecer la tarifa regulada, el Precio Voluntario al Pequeño Consumidor (PVPC)- están obligadas a informar en su factura a los consumidores con tarifa PVPC de qué ahorros obtendrían con el cambio a una tarifa con discriminación horaria (con la que se paga menos por la electricidad consumida entre 22:00 y las 12:00 del día siguiente en invierno y las 23:00 y las 13:00 del día siguiente en verano).
+    text2: Está demostrado que, en la mayoría de los casos, tener contratada la tarifa con discriminación horaria implica un ahorro porque los peajes son significativamente más baratos en el periodo valle. Por cierto, debes saber que el trámite de cambio de tarifa (o de potencia) tiene un coste para el consumidor de unos 9 euros+IVA aunque en la CNMC hemos expresado nuestra disconformidad puesto que este cambio no requiere una traslado de operario al domicilio.
+    text3:
+    href: https://blog.cnmc.es/2013/11/04/consejos-para-reducir-la-factura-de-la-luz-i/
+    href1: https://blog.cnmc.es/2013/11/04/consejos-para-reducir-la-factura-de-la-luz-i/
+
+  card3:
+    id: exampleModal3
+    img: static/img/2020-12-15_20-50.png
+    img1: static/img/2020-12-15_20-50.png
+    title: El proceso de cambio de suministrador de electricidad o gas
+    text:  Consultar los comercializadores. Cualquier consumidor puede elegir libremente el comercializador con el que desea contratar.
+    text1:  Comparar y contactar con el comercializador elegido.  Puede comparar las ofertas de los comercializadores en el comparador de ofertas de energía de la CNMC comparadorofertasenergia.cnmc.es
+        Tenga en cuenta, antes de un cambio, la existencia de cláusulas de preaviso o de cancelación anticipada con su comercializador anterior. Además del precio, atienda a otros aspectos importantes plazos de vigencia del contrato, servicios adicionales (urgencias, mantenimiento, reparaciones, etc.)
+    text2: Está demostrado que, en la mayoría de los casos, tener contratada la tarifa con discriminación horaria implica un ahorro porque los peajes son significativamente más baratos en el periodo valle. Por cierto, debes saber que el trámite de cambio de tarifa (o de potencia) tiene un coste para el consumidor de unos 9 euros+IVA aunque en la CNMC hemos expresado nuestra disconformidad puesto que este cambio no requiere una traslado de operario al domicilio.
+    text3: Dar el consentimiento y contratar
+      Tras contactar con el comercializador debe dar el consentimiento y realizar la contratación.
+      En el caso de contratación a distancia (telefónica, por internet, mediante visita a domicilio, etc.) dispone de un periodo de 14 días tras la contratación en el que puede desistir del contrato.
+    href: https://blog.cnmc.es/2013/11/04/consejos-para-reducir-la-factura-de-la-luz-i/
+    href1: https://blog.cnmc.es/2013/11/04/consejos-para-reducir-la-factura-de-la-luz-i/
+
+  card4:
+    id: exampleModal4
+    img: static/img/2020-12-15_20-44.png
+    img1: static/img/2020-12-15_20-44.png
+    title: Bajar el consumo de Energia Reactiva
+    href: https://energysave.abb-drives.com/
+
+  card5:
+    id: exampleModal5
+    img1: static/img/2021-02-19_10-43.png
+    img: static/img/2021-02-19_10-45.png
+    title: Ayudas para actuaciones de rehabilitación energética
+    text: Real Decreto 737/2020 Ayudas para actuaciones de rehabilitación energética
+    text1: conseguir y justificar una reducción del consumo de energía final y de las emisiones de dióxido de carbono con respecto a su situación de partida,
+    href: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-9273
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+estudios_tecnicos:
+
+  card22:
+    img: static/img/pvwatts.png
+    title: PVWatts
+    text: Calculadora PVWatts® de NREL
+      Calcula la producción de energía y el costo de la energía de los sistemas de energía fotovoltaica (PV) conectados a la red en todo el mundo. Permite a los propietarios de viviendas, pequeños edificios, instaladores y fabricantes desarrollar fácilmente estimaciones del rendimiento de las instalaciones fotovoltaicas potenciales.
+    href: https://pvwatts.nrel.gov/
+
+  card32:
+    img: static/img/pvgis.png
+    title: PVGIS
+    text: PVGIS proporciona acceso libre y gratuito a Potencial fotovoltaico para diferentes tecnologías y configuraciones de sistemas conectados a la red e independientes.
+      Radiación solar y temperaturas, como promedios mensuales o perfiles diarios.
+      Serie de tiempo completo de valores horarios tanto de radiación solar como de rendimiento fotovoltaico.
+      Datos típicos del año meteorológico para nueve variables climáticas.
+      Mapas, por país o región, de recursos solares y potencial fotovoltaico listos para imprimir.
+      El software PVMAPS incluye todos los modelos de estimación utilizados en PVGIS.
+    href: https://ec.europa.eu/jrc/en/pvgis
+
+
+  card02:
+    img: static/img/2021-03-18_20-18.png
+    title: Horas Solar Pico (HSP)
+    text: Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  card01:
+    img: static/img/2021-03-17_01-07.png
+    title: Ahorros
+    text: los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&V
+      ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***
+      Las buenas prácticas requieren que M&V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&V.
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
+  card0:
+    img: static/img/2021-03-17_01-26.png
+    title: Rentabilidad
+    text: Este parámetro proporciona un índice oporunidad de la invesion. Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kWh, que resulta mas de la mitad del consumo medio de un hogar, signfica que con 20 m2 y acumulacion esaria cubierta la demanda.
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
+  card1:
+    img: static/img/2021-02-11_00-27.png
+    title: GradosDia
+    text: Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana.
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  card2:
+    img: static/img/2021-02-11_02-40.png
+    title: Perdidas por orientacion
+    text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
+    href: https://cj5zllyfaa.execute-api.eu-west-1.amazonaws.com/dev
+  card3:
+    img: static/img/2021-02-11_12-38.png
+    title: Perdidas por inclinacion
+    text: La radiación solar incidente es maxima en el perido anual para una inclinacion igual a la latitud, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion y uso.
+    href: https://zg7lpfre3m.execute-api.eu-west-1.amazonaws.com/dev
+  card4:
+    img: static/img/2021-02-12_14-15.png
+    title: Perdidas por sombras
+    text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
+      banda de trayectorias del Sol a lo largo de todo el año
+    href: https://ph1apditp4.execute-api.eu-west-1.amazonaws.com/dev
+  card5:
+    img: static/img/2021-02-12_14-15.png
+    title: plantilla2
+    text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
+      banda de trayectorias del Sol a lo largo de todo el año
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev/
+  card6:
+    img: static/img/2021-02-12_14-15.png
+    title: pruebas
+    text: pruebas del framework para estudios
+    href: https://fqpbhqhrjd.execute-api.eu-west-1.amazonaws.com/dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+auditorias:
+  auditoria1:
+    title: Preliminar
+    href: https://8rbi2doorj.execute-api.eu-west-1.amazonaws.com/dev
+  auditoria2:
+    title: ashrae1
+    href: https://8rbi2doorj.execute-api.eu-west-1.amazonaws.com/dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+solares:
+  card1:
+    img: static/2021-02-07_12-27.png
+    title: Residencial_Unifamiliar
+    text: fasdfasd
+    href: https://5d010n1nwb.execute-api.eu-west-1.amazonaws.com/dev
+  card2:
+    img: static/2021-02-06_16-50.png
+    title: Industrial
+    text: fasdfasd
+    href: https://lgudfpwpa4.execute-api.eu-west-1.amazonaws.com/dev
+  card3:
+    img: static/2021-02-07_12-27.png
+    title: Agro_Riego
+    text: fasdfasd
+    href: https://bwdvraa92c.execute-api.eu-west-1.amazonaws.com/dev
+  card4:
+    img: static/2021-02-07_12-27.png
+    title: Ganadero
+    text: fasdfasd
+    href: https://b9spctvcwj.execute-api.eu-west-1.amazonaws.com/dev

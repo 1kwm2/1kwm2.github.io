@@ -415,18 +415,6 @@ estudios_tecnicos:
 
 
 
-auditorias:
-  auditoria1:
-    title: Preliminar
-    href: https://8rbi2doorj.execute-api.eu-west-1.amazonaws.com/dev
-  auditoria2:
-    title: ashrae1
-    href: https://8rbi2doorj.execute-api.eu-west-1.amazonaws.com/dev
-
-
-
-
-
 
 
 
@@ -436,25 +424,39 @@ auditorias:
 
 
     
-
+# se abrem modales con iframes del formulario
 solares:
   card1:
     img: static/2021-02-07_12-27.png
     title: Residencial_Unifamiliar
     text: fasdfasd
-    href: fv_bombeo
+    href: fv_residencial
   card2:
     img: static/2021-02-06_16-50.png
     title: Industrial
     text: fasdfasd
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo
+    href: fv_industrial
   card3:
     img: static/2021-02-07_12-27.png
     title: Agro_Riego
     text: fasdfasd
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo
+    href: fv_bombeo
   card4:
     img: static/2021-02-07_12-27.png
     title: Ganadero
     text: fasdfasd
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo
+    href: fv_ganadero
+
+
+
+auditorias:
+  auditoria1:
+    title: Preliminar
+    href: ae_preliminar
+  auditoria2:
+    title: ashrae1
+    href: ae_ashrael
+
+
+
+

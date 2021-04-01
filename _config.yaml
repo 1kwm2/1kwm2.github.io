@@ -442,19 +442,19 @@ solares:
     img: static/2021-02-07_12-27.png
     title: Residencial_Unifamiliar
     text: fasdfasd
-    href: https://5d010n1nwb.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo
   card2:
     img: static/2021-02-06_16-50.png
     title: Industrial
     text: fasdfasd
-    href: https://lgudfpwpa4.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo
   card3:
     img: static/2021-02-07_12-27.png
     title: Agro_Riego
     text: fasdfasd
-    href: https://bwdvraa92c.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo
   card4:
     img: static/2021-02-07_12-27.png
     title: Ganadero
     text: fasdfasd
-    href: https://b9spctvcwj.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo

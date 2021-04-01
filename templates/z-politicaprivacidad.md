@@ -1,4 +1,4 @@
-## Responsable
+## Responsabilidad
 - _Titular_  : [Ingeniero Técnico Industrial](https://www.coitigr.com/coitigr2013/Valida.asp?CS=ST2R0NG0TQSM)
 - _Correo_: \<nombreapellidos\>@gmail.com
 

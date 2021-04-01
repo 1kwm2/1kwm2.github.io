@@ -442,7 +442,7 @@ solares:
     img: static/2021-02-07_12-27.png
     title: Residencial_Unifamiliar
     text: fasdfasd
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo
+    href: fv_bombeo
   card2:
     img: static/2021-02-06_16-50.png
     title: Industrial

@@ -6,7 +6,7 @@ carousels:
     img: static/img/zorrogallinas.png
     title: Estudio Independiente y Gratuito
     text: No proveemos equipos ni instalaciones.
-    href: https://0gtg5y9qsk.execute-api.eu-west-1.amazonaws.com/dev/
+    href: https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev
     
   carousel1:
     img: static/img/solar-4824555_640.jpg
@@ -79,7 +79,7 @@ docs:
     href:
 
 
-`
+
 
 
 
@@ -89,9 +89,9 @@ docs:
 
 linksblogs:
   card26:
-    title: anese
-    href: https://www.anese.es/noticias-del-sector/
-    src: https://www.anese.es/wp-content/uploads/2019/01/anese.png
+    title: nrel-sam
+    href: https://sam.nrel.gov/
+    src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/National_Renewable_Energy_Laboratory_logo_%282_rows%29.jpg/1024px-National_Renewable_Energy_Laboratory_logo_%282_rows%29.jpg
 
   card25:
     title: fundacionrenovables
@@ -458,9 +458,11 @@ auditorias:
     title: Preliminar
     href: ae_preliminar
   auditoria2:
-    title: ashrae1
-    href: ae_ashrael
-
+    title: ashrae
+    href: ae_ashrae
+  auditoria3:
+    title: ashrae
+    href: ae_ashrae
 
 
 

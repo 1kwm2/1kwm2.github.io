@@ -35,8 +35,8 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            {% for _, item in data.estudios_tecnicos.items() %}
-            <li><a class="dropdown-item" href="{{ item.href }}">{{ item.title }}</a></li>
+            {% for _, item in data.estudiotecnicos.items() %}
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.title }}').click()">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </li>

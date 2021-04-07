@@ -1,7 +1,7 @@
 {% for _, item in data.auditorias.items() %}
 
 <!-- Button trigger modal -->
-<button id="boton_{{ item.title }}" data-bs-target="#{{ item.title }}" type="button" class="btn btn-primary" data-bs-toggle="modal">
+<button hidden id="boton_{{ item.title }}" data-bs-target="#{{ item.title }}" type="button" class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 

@@ -23,7 +23,7 @@ carousels:
     title: Programa de ayudas FEDER
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-    
+
   PREE3:
     img: static/img/energy-3125125_640.jpg
     title: Programa de ayudas PREE
@@ -65,6 +65,112 @@ carousels:
 
 
 
+calculadorawebs:
+  calculadoraweb22:
+    img: static/img/pvwatts.png
+    title: PVWatts
+    text: Calculadora PVWatts® de NREL
+      Calcula la producción de energía y el costo de la energía de los sistemas de energía fotovoltaica (PV) conectados a la red en todo el mundo. Permite a los propietarios de viviendas, pequeños edificios, instaladores y fabricantes desarrollar fácilmente estimaciones del rendimiento de las instalaciones fotovoltaicas potenciales.
+    href: https://pvwatts.nrel.gov/
+
+  calculadoraweb2:
+    img: static/img/pvgis.png
+    title: PVGIS
+    text: PVGIS proporciona acceso libre y gratuito a Potencial fotovoltaico para diferentes tecnologías y configuraciones de sistemas conectados a la red e independientes.
+      Radiación solar y temperaturas, como promedios mensuales o perfiles diarios.
+      Serie de tiempo completo de valores horarios tanto de radiación solar como de rendimiento fotovoltaico.
+      Datos típicos del año meteorológico para nueve variables climáticas.
+      Mapas, por país o región, de recursos solares y potencial fotovoltaico listos para imprimir.
+      El software PVMAPS incluye todos los modelos de estimación utilizados en PVGIS.
+    href: https://ec.europa.eu/jrc/en/pvgis
+
+
+
+    
+
+
+
+estudiotecnicos:
+  estudiotecnico02:
+    img: static/img/2021-03-18_20-18.png
+    title: Horas Solar Pico (HSP)
+    text: Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  estudiotecnico01:
+    img: static/img/2021-03-17_01-07.png
+    title: Ahorros
+    text: los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&V
+      ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***
+      Las buenas prácticas requieren que M&V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&V.
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
+  estudiotecnico0:
+    img: static/img/2021-03-17_01-26.png
+    title: Rentabilidad
+    text: Este parámetro proporciona un índice oporunidad de la invesion. Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kWh, que resulta mas de la mitad del consumo medio de un hogar, signfica que con 20 m2 y acumulacion esaria cubierta la demanda.
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
+  estudiotecnico1:
+    img: static/img/2021-02-11_00-27.png
+    title: GradosDia
+    text: Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana.
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  estudiotecnico2:
+    img: static/img/2021-02-11_02-40.png
+    title: Perdidas_por_orientacion
+    text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
+    href: https://cj5zllyfaa.execute-api.eu-west-1.amazonaws.com/dev
+  estudiotecnico3:
+    img: static/img/2021-02-11_12-38.png
+    title: Perdidas_por_inclinacion
+    text: La radiación solar incidente es maxima en el perido anual para una inclinacion igual a la latitud, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion y uso.
+    href: https://zg7lpfre3m.execute-api.eu-west-1.amazonaws.com/dev
+  estudiotecnico4:
+    img: static/img/2021-02-12_14-15.png
+    title: Perdidas_por_sombras
+    text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
+      banda de trayectorias del Sol a lo largo de todo el año
+    href: https://ph1apditp4.execute-api.eu-west-1.amazonaws.com/dev
+  # estudiotecnico5:
+  #   img: static/img/2021-02-12_14-15.png
+  #   title: plantilla2
+  #   text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
+  #     banda de trayectorias del Sol a lo largo de todo el año
+  #   href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev/
+  # estudiotecnico6:
+  #   img: static/img/2021-02-12_14-15.png
+  #   title: pruebas
+  #   text: pruebas del framework para estudios
+  #   href: https://fqpbhqhrjd.execute-api.eu-west-1.amazonaws.com/dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+auditorias:
+  auditoria0:
+    img: static/img/zorrogallinas.png
+    title: ae_edificio
+    text: ae_edificio.
+    href: ae_edificio
+    
+  auditoria1:
+    img: static/img/solar-4824555_640.jpg
+    title: ae_industria
+    text:  ae_industria 
+    href: ae_industria
+    
+
+
+
 
 autoconsumos:
   autoconsumo0:
@@ -91,11 +197,7 @@ autoconsumos:
     text: ae_edificio
     href: ae_edificio
 
-  autoconsumo5:
-    img: static/img/solar-energy-3297945_640.jpg
-    title: ae_industria
-    text: ae_industria
-    href: ae_industria
+
 
 
 # https://www.youtube.com/watch?v=gHNgR1Ly4TE&t=59s
@@ -104,37 +206,37 @@ PREEs:
     img: static/img/solar-4824555_640.jpg
     title: Programa de ayudas PREE
     text:  Sustitución energía convencional por energía solar térmica
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   PREE2:
     img: static/img/solar-panel-918492_640.jpg
     title: Programa de ayudas PREE
     text: Sustitución de energía convencional por energía geotérmica. 
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE3:
     img: static/img/energy-3125125_640.jpg
     title: Programa de ayudas PREE
     text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   PREE4:
     img: static/img/car-3117778_640.jpg
     title: Programa de ayudas PREE
     text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE5:
     img: static/img/solar-energy-3297945_640.jpg
     title: Programa de ayudas PREE
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE6:
     img: static/img/2021-03-24_13-30.png
     title: Programa de ayudas PREE
     text: Mejora de las instalaciones de iluminación.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
 
 
@@ -144,37 +246,37 @@ FEDERs:
     img: static/img/solar-4824555_640.jpg
     title: Programa de ayudas FEDER
     text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   FEDER2:
     img: static/img/solar-panel-918492_640.jpg
     title: Programa de ayudas FEDER
     text: PYME y gran empresa sector industrial 
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   FEDER3:
     img: static/img/energy-3125125_640.jpg
     title: Programa de ayudas FEDER
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   FEDER4:
     img: static/img/car-3117778_640.jpg
     title: Programa de ayudas FEDER
     text: Implantación de recarga de VE MOVALT infraestructura
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   FEDER5:
     img: static/img/solar-energy-3297945_640.jpg
     title: Programa de ayudas FEDER
     text: PYME y gran empresa sector industrial
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   FEDER6:
     img: static/img/2021-03-24_13-30.png
     title: Programa de ayudas FEDER
     text: Implantación de recarga de VE MOVALT infraestructura
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
 
 
@@ -196,23 +298,6 @@ docs:
   d03:
     title: ayudas a la inversión en instalaciones de generación de energía eléctrica
     href: https://www.boe.es/boe/dias/2020/08/05/pdfs/BOE-A-2020-9262.pdf
-  d04:
-    title:
-    href:
-  d05:
-    title:
-    href:
-  d06:
-    title:
-    href:
-  d07:
-    title:
-    href:
-  d08:
-    title:
-    href:
-
-
 
 
 
@@ -461,91 +546,6 @@ blogs:
 
 
 
-estudios_tecnicos:
-
-  card22:
-    img: static/img/pvwatts.png
-    title: PVWatts
-    text: Calculadora PVWatts® de NREL
-      Calcula la producción de energía y el costo de la energía de los sistemas de energía fotovoltaica (PV) conectados a la red en todo el mundo. Permite a los propietarios de viviendas, pequeños edificios, instaladores y fabricantes desarrollar fácilmente estimaciones del rendimiento de las instalaciones fotovoltaicas potenciales.
-    href: https://pvwatts.nrel.gov/
-
-  card32:
-    img: static/img/pvgis.png
-    title: PVGIS
-    text: PVGIS proporciona acceso libre y gratuito a Potencial fotovoltaico para diferentes tecnologías y configuraciones de sistemas conectados a la red e independientes.
-      Radiación solar y temperaturas, como promedios mensuales o perfiles diarios.
-      Serie de tiempo completo de valores horarios tanto de radiación solar como de rendimiento fotovoltaico.
-      Datos típicos del año meteorológico para nueve variables climáticas.
-      Mapas, por país o región, de recursos solares y potencial fotovoltaico listos para imprimir.
-      El software PVMAPS incluye todos los modelos de estimación utilizados en PVGIS.
-    href: https://ec.europa.eu/jrc/en/pvgis
-
-
-  card02:
-    img: static/img/2021-03-18_20-18.png
-    title: Horas Solar Pico (HSP)
-    text: Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-  card01:
-    img: static/img/2021-03-17_01-07.png
-    title: Ahorros
-    text: los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&V
-      ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***
-      Las buenas prácticas requieren que M&V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&V.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-
-  card0:
-    img: static/img/2021-03-17_01-26.png
-    title: Rentabilidad
-    text: Este parámetro proporciona un índice oporunidad de la invesion. Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kWh, que resulta mas de la mitad del consumo medio de un hogar, signfica que con 20 m2 y acumulacion esaria cubierta la demanda.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-
-  card1:
-    img: static/img/2021-02-11_00-27.png
-    title: GradosDia
-    text: Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-  card2:
-    img: static/img/2021-02-11_02-40.png
-    title: Perdidas por orientacion
-    text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
-    href: https://cj5zllyfaa.execute-api.eu-west-1.amazonaws.com/dev
-  card3:
-    img: static/img/2021-02-11_12-38.png
-    title: Perdidas por inclinacion
-    text: La radiación solar incidente es maxima en el perido anual para una inclinacion igual a la latitud, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion y uso.
-    href: https://zg7lpfre3m.execute-api.eu-west-1.amazonaws.com/dev
-  card4:
-    img: static/img/2021-02-12_14-15.png
-    title: Perdidas por sombras
-    text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
-      banda de trayectorias del Sol a lo largo de todo el año
-    href: https://ph1apditp4.execute-api.eu-west-1.amazonaws.com/dev
-  # card5:
-  #   img: static/img/2021-02-12_14-15.png
-  #   title: plantilla2
-  #   text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
-  #     banda de trayectorias del Sol a lo largo de todo el año
-  #   href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev/
-  # card6:
-  #   img: static/img/2021-02-12_14-15.png
-  #   title: pruebas
-  #   text: pruebas del framework para estudios
-  #   href: https://fqpbhqhrjd.execute-api.eu-west-1.amazonaws.com/dev
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -585,18 +585,6 @@ solares:
     text: fasdfasd
     href: fv_ganadero
 
-
-
-auditorias:
-  auditoria1:
-    title: Preliminar
-    href: ae_preliminar
-  auditoria2:
-    title: ashrae
-    href: ae_ashrae
-  auditoria3:
-    title: ashrae
-    href: ae_ashrae
 
 
 

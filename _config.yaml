@@ -65,20 +65,15 @@ carousels:
 
 
 
-
-
-
-
-
-estudiotecnicos:
-  estudiotecnico22:
+calculadorawebs:
+  calculadoraweb22:
     img: static/img/pvwatts.png
     title: PVWatts
     text: Calculadora PVWatts® de NREL
       Calcula la producción de energía y el costo de la energía de los sistemas de energía fotovoltaica (PV) conectados a la red en todo el mundo. Permite a los propietarios de viviendas, pequeños edificios, instaladores y fabricantes desarrollar fácilmente estimaciones del rendimiento de las instalaciones fotovoltaicas potenciales.
     href: https://pvwatts.nrel.gov/
 
-  estudiotecnico32:
+  calculadoraweb2:
     img: static/img/pvgis.png
     title: PVGIS
     text: PVGIS proporciona acceso libre y gratuito a Potencial fotovoltaico para diferentes tecnologías y configuraciones de sistemas conectados a la red e independientes.
@@ -88,6 +83,14 @@ estudiotecnicos:
       Mapas, por país o región, de recursos solares y potencial fotovoltaico listos para imprimir.
       El software PVMAPS incluye todos los modelos de estimación utilizados en PVGIS.
     href: https://ec.europa.eu/jrc/en/pvgis
+
+
+
+    
+
+
+
+estudiotecnicos:
   estudiotecnico02:
     img: static/img/2021-03-18_20-18.png
     title: Horas Solar Pico (HSP)

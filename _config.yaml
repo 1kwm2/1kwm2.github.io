@@ -1,3 +1,41 @@
+formularios:
+  formulario0:
+    img: static/img/zorrogallinas.png
+    title: fv_bombeo
+    text: fv_bombeo.
+    href: fv_bombeo
+    
+  formulario1:
+    img: static/img/solar-4824555_640.jpg
+    title: fv_industrial
+    text:  fv_industrial 
+    href: fv_industrial
+    
+  formulario2:
+    img: static/img/solar-panel-918492_640.jpg
+    title: fv_residencial
+    text: fv_residencial 
+    href: fv_residencial
+
+  formulario3:
+    img: static/img/energy-3125125_640.jpg
+    title: contacto
+    text: contacto
+    href: contacto
+    
+  formulario4:
+    img: static/img/car-3117778_640.jpg
+    title: ae_edificio
+    text: ae_edificio
+    href: ae_edificio
+
+  formulario5:
+    img: static/img/solar-energy-3297945_640.jpg
+    title: ae_industria
+    text: ae_industria
+    href: ae_industria
+
+
 
 
 

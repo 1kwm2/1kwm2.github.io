@@ -124,6 +124,48 @@
             
 
             <div class="carousel-item">
+                <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;" src='static/img/energy-3125125_640.jpg'
+                    alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Programa de ayudas PREE</h1>
+                        <p>Sustitución de energía convencional por biomasa en las instalaciones térmicas.</p>
+                        <p></p>
+                        <p><a class="btn btn-lg btn-primary" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" role="button">Ir</a></p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="carousel-item">
+                <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;" src='static/img/car-3117778_640.jpg'
+                    alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Programa de ayudas PREE</h1>
+                        <p>Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.</p>
+                        <p></p>
+                        <p><a class="btn btn-lg btn-primary" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" role="button">Ir</a></p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="carousel-item">
+                <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;" src='static/img/solar-energy-3297945_640.jpg'
+                    alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Programa de ayudas PREE</h1>
+                        <p>Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.</p>
+                        <p></p>
+                        <p><a class="btn btn-lg btn-primary" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" role="button">Ir</a></p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="carousel-item">
                 <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;" src='static/img/car-3117778_640.jpg'
                     alt="Second slide">
                 <div class="container">
@@ -180,7 +222,7 @@
 <br>
 
 <!-- <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark"> -->
-  
+
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top " style="background-color: #b3f31f;">
   <div class="container">
     <a class="navbar-brand" href="#">1kwm2</a>
@@ -196,13 +238,13 @@
             aria-expanded="false">Autoconsumo</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('fv_residencial').click()" >Residencial_Unifamiliar</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_residencial').click()">fv_residencial</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('fv_industrial').click()" >Industrial</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_industrial').click()">fv_industrial</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('fv_bombeo').click()" >Agro_Riego</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_bombeo').click()">fv_bombeo</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('fv_ganadero').click()" >Ganadero</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_ganadero').click()">fv_ganadero</a></li>
             
           </ul>
         </li>
@@ -211,14 +253,14 @@
             aria-expanded="false">Auditoria Energetica</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('ae_preliminar').click()" >Preliminar</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('ae_preliminar').click()">Preliminar</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('ae_ashrae').click()" >ashrae</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('ae_ashrae').click()">ashrae</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('ae_ashrae').click()" >ashrae</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('ae_ashrae').click()">ashrae</a></li>
             
           </ul>
-          
+
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
@@ -243,9 +285,24 @@
             
             <li><a class="dropdown-item" href="https://ph1apditp4.execute-api.eu-west-1.amazonaws.com/dev">Perdidas por sombras</a></li>
             
-            <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev/">plantilla2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Ayudas PREE</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
-            <li><a class="dropdown-item" href="https://fqpbhqhrjd.execute-api.eu-west-1.amazonaws.com/dev">pruebas</a></li>
+            <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev">Sustitución energía convencional por energía solar térmica</a></li>
+            
+            <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev">Sustitución de energía convencional por energía geotérmica.</a></li>
+            
+            <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev">Sustitución de energía convencional por biomasa en las instalaciones térmicas.</a></li>
+            
+            <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev">Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.</a></li>
+            
+            <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev">Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.</a></li>
+            
+            <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev">Mejora de las instalaciones de iluminación.</a></li>
             
           </ul>
         </li>
@@ -253,8 +310,6 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Ayudas FEDER</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            
-            <li><a class="dropdown-item" href="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev">No proveemos equipos ni instalaciones.</a></li>
             
             <li><a class="dropdown-item" href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev">Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica</a></li>
             
@@ -270,6 +325,7 @@
             
           </ul>
         </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Ayuda</a>
@@ -297,6 +353,17 @@
     </div>
   </div>
 </nav>
+<!-- <hr class=" my-5"> -->
+<div class="container">
+  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
+    <div class="row" data-masonry='{"percentPosition": true }'">
+      <h1 class=" display-4 font-italic">Estudios Tecnicos</h1>
+      <div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- <hr class=" my-5"> -->
 <div class="container">
   <div class="row" data-masonry='{"percentPosition": true }'>
@@ -400,24 +467,130 @@
       </div>
     </div>
     
+  </div>
+</div>
+<!-- <hr class=" my-5"> -->
+<div class="container">
+  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
+    <div class="row" data-masonry='{"percentPosition": true }'">
+      <h1 class=" display-4 font-italic">Autoconsumo</h1>
+      <p>Nuestros preferidos, comprometidos con el uso de energia renovable y eficiente</p>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
+
+<div class="container">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    
     <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-02-12_14-15.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="rounded" src='static/img/zorrogallinas.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
-          <h5 class="card-title">plantilla2</h5>
-          <p class="card-text">Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la banda de trayectorias del Sol a lo largo de todo el año.</p>
-          <a href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev/" class="stretched-link"></a>
+          <h5 class="card-title">fv_bombeo</h5>
+          <p class="card-text">fv_bombeo..</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo" class="stretched-link"></a>
         </div>
       </div>
     </div>
     
     <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-02-12_14-15.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="rounded" src='static/img/solar-4824555_640.jpg' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
-          <h5 class="card-title">pruebas</h5>
-          <p class="card-text">pruebas del framework para estudios.</p>
-          <a href="https://fqpbhqhrjd.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a>
+          <h5 class="card-title">fv_industrial</h5>
+          <p class="card-text">fv_industrial.</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/solar-panel-918492_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">fv_residencial</h5>
+          <p class="card-text">fv_residencial.</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_residencial" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/car-3117778_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ae_edificio</h5>
+          <p class="card-text">ae_edificio.</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_edificio" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/solar-energy-3297945_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ae_industria</h5>
+          <p class="card-text">ae_industria.</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_industria" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- <hr class=" my-5"> -->
+<div class="container">
+  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
+    <div class="row" data-masonry='{"percentPosition": true }'">
+      <h1 class=" display-4 font-italic">Auditoria Energetica</h1>
+      <p>Por un futuro sin tanto CO2</p>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
+
+<div class="container">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Preliminar</h5>
+          <p class="card-text">.</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_preliminar" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ashrae</h5>
+          <p class="card-text">.</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_ashrae" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ashrae</h5>
+          <p class="card-text">.</p>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_ashrae" class="stretched-link"></a>
         </div>
       </div>
     </div>
@@ -784,13 +957,16 @@
     </div>
 </div>
 
+
+
 <!-- Button trigger modal -->
-<button hidden id="fv_bombeo" data-bs-target="#m_fv_bombeo" type="button" class="btn btn-primary" data-bs-toggle="modal" >
+<button id="boton_fv_bombeo" data-bs-target="#fv_bombeo" type="button" class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="m_fv_bombeo" class="modal fade" data-bs-backdrop="static"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="fv_bombeo" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -798,9 +974,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <iframe  src="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev" 
-                frameborder="0" allowfullscreen
-      style="width:100%;height:100%;"></iframe>
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
@@ -809,13 +984,15 @@
     </div>
 </div>
 
+
 <!-- Button trigger modal -->
-<button hidden id="fv_industrial" data-bs-target="#m_fv_industrial" type="button" class="btn btn-primary" data-bs-toggle="modal" >
+<button id="boton_fv_industrial" data-bs-target="#fv_industrial" type="button" class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="m_fv_industrial" class="modal fade" data-bs-backdrop="static"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="fv_industrial" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -823,9 +1000,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <iframe  src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial" 
-                frameborder="0" allowfullscreen
-      style="width:100%;height:100%;"></iframe>
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
@@ -834,13 +1010,15 @@
     </div>
 </div>
 
+
 <!-- Button trigger modal -->
-<button hidden id="fv_residencial" data-bs-target="#m_fv_residencial" type="button" class="btn btn-primary" data-bs-toggle="modal" >
+<button id="boton_fv_residencial" data-bs-target="#fv_residencial" type="button" class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="m_fv_residencial" class="modal fade" data-bs-backdrop="static"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="fv_residencial" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -848,9 +1026,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <iframe  src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_residencial" 
-                frameborder="0" allowfullscreen
-      style="width:100%;height:100%;"></iframe>
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_residencial"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
@@ -859,13 +1036,15 @@
     </div>
 </div>
 
+
 <!-- Button trigger modal -->
-<button hidden id="fv_industrial" data-bs-target="#m_fv_industrial" type="button" class="btn btn-primary" data-bs-toggle="modal" >
+<button id="boton_ae_edificio" data-bs-target="#ae_edificio" type="button" class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="m_fv_industrial" class="modal fade" data-bs-backdrop="static"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="ae_edificio" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -873,9 +1052,113 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <iframe  src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial" 
-                frameborder="0" allowfullscreen
-      style="width:100%;height:100%;"></iframe>
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_edificio"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button hidden type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button id="boton_ae_industria" data-bs-target="#ae_industria" type="button" class="btn btn-primary" data-bs-toggle="modal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div id="ae_industria" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_industria"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button hidden type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Button trigger modal -->
+<button id="boton_Preliminar" data-bs-target="#Preliminar" type="button" class="btn btn-primary" data-bs-toggle="modal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div id="Preliminar" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/Preliminar"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button hidden type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button id="boton_ashrae" data-bs-target="#ashrae" type="button" class="btn btn-primary" data-bs-toggle="modal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div id="ashrae" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ashrae"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button hidden type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button id="boton_ashrae" data-bs-target="#ashrae" type="button" class="btn btn-primary" data-bs-toggle="modal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div id="ashrae" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ashrae"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
@@ -1235,4 +1518,4 @@ data-bs-target="#privacidadq" class="stretched-link"> Ver</button>
 
 </body>
 
-</html> 
+</html>

@@ -1,23 +1,32 @@
 
 carousels:
-  estudiotecnico02:
-    img: static/img/2021-03-18_20-18.png
-    title: Horas Solar Pico (HSP)
-    text: Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-  estudiotecnico01:
-    img: static/img/2021-03-17_01-07.png
-    title: Ahorros
-    text: los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&V
-      ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***
-      Las buenas prácticas requieren que M&V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&V.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
 
   carousel0:
     img: static/img/zorrogallinas.png
     title: Estudio Independiente y Gratuito
     text: No proveemos equipos ni instalaciones.
     href: https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev
+
+
+  PREE1:
+    img: static/img/solar-4824555_640.jpg
+    title: PREE Energía solar térmica
+    text:  Sustitución energía convencional por energía solar térmica
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    
+  PREE2:
+    img: static/img/solar-panel-918492_640.jpg
+    title: PREE energía geotérmica
+    text: Sustitución de energía convencional por energía geotérmica. 
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+
+  PREE3:
+    img: static/img/energy-3125125_640.jpg
+    title: PREE biomasa 
+    text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    
 
   carousel1:
     img: static/img/solar-4824555_640.jpg
@@ -39,19 +48,19 @@ carousels:
 
   PREE3:
     img: static/img/energy-3125125_640.jpg
-    title: Programa de ayudas PREE
+    title: PREE
     text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
     
   PREE4:
     img: static/img/car-3117778_640.jpg
-    title: Programa de ayudas PREE
+    title: PREE
     text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   PREE5:
     img: static/img/solar-energy-3297945_640.jpg
-    title: Programa de ayudas PREE
+    title: PREE
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
     
@@ -204,11 +213,7 @@ autoconsumos:
     text: fv_residencial 
     href: fv_residencial
 
-  autoconsumo4:
-    img: static/img/7.jpg
-    title: ae_edificio
-    text: ae_edificio
-    href: ae_edificio
+
 
 
 
@@ -217,37 +222,43 @@ autoconsumos:
 PREEs:
   PREE1:
     img: static/img/solar-4824555_640.jpg
-    title: Programa de ayudas PREE
+    id: PREEEnergíasolartérmica
+    title: PREE Energía solar térmica
     text:  Sustitución energía convencional por energía solar térmica
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   PREE2:
     img: static/img/solar-panel-918492_640.jpg
-    title: Programa de ayudas PREE
+    id: PREEenerggeotérmica
+    title: PREE energía geotérmica
     text: Sustitución de energía convencional por energía geotérmica. 
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE3:
     img: static/img/energy-3125125_640.jpg
-    title: Programa de ayudas PREE
+    id: PREEbiomasa 
+    title: PREE biomasa 
     text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   PREE4:
     img: static/img/car-3117778_640.jpg
-    title: Programa de ayudas PREE
+    id: PREEsubsistemasdegeneración
+    title: PREE subsistemas de generación
     text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE5:
     img: static/img/solar-energy-3297945_640.jpg
-    title: Programa de ayudas PREE
+    id: PREEsubsistemasdedistribución
+    title: PREE subsistemas de distribución, regulación, control
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE6:
     img: static/img/2021-03-24_13-30.png
-    title: Programa de ayudas PREE
+    id: PREEiluminación
+    title: PREE iluminación
     text: Mejora de las instalaciones de iluminación.
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     

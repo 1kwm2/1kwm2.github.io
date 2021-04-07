@@ -1,13 +1,14 @@
 {% for _, item in data.auditorias.items() %}
 
 <!-- Button trigger modal -->
-<button hidden id="boton_{{ item.title }}" data-bs-target="#{{ item.title }}" type="button" class="btn btn-primary" data-bs-toggle="modal">
+<button hidden id="boton_{{ item.title }}" data-bs-target="#{{ item.title }}" type="button" class="btn btn-primary"
+    data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="{{ item.title }}" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
+<div id="{{ item.title }}" class="modal fade" data-bs-backdrop="static" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -15,6 +16,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
+                <img class="rounded" src='{{ item.img }}' class="img-fluid img-thumbnail" alt="...">
                 <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/{{ item.title }}"
                     frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>

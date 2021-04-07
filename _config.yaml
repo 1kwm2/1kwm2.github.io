@@ -23,7 +23,7 @@ carousels:
     title: Programa de ayudas FEDER
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-    
+
   PREE3:
     img: static/img/energy-3125125_640.jpg
     title: Programa de ayudas PREE
@@ -62,6 +62,24 @@ carousels:
     
 
 
+
+
+
+
+
+auditorias:
+  auditoria0:
+    img: static/img/zorrogallinas.png
+    title: ae_edificio
+    text: ae_edificio.
+    href: ae_edificio
+    
+  auditoria1:
+    img: static/img/solar-4824555_640.jpg
+    title: ae_industria
+    text:  ae_industria 
+    href: ae_industria
+    
 
 
 
@@ -585,18 +603,6 @@ solares:
     text: fasdfasd
     href: fv_ganadero
 
-
-
-auditorias:
-  auditoria1:
-    title: Preliminar
-    href: ae_preliminar
-  auditoria2:
-    title: ashrae
-    href: ae_ashrae
-  auditoria3:
-    title: ashrae
-    href: ae_ashrae
 
 
 

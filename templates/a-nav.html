@@ -25,7 +25,7 @@
             aria-expanded="false">Auditoria Energetica</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.auditorias.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('{{ item.href }}').click()">{{
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.href }}').click()">{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>

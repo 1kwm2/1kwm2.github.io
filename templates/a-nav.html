@@ -1,5 +1,5 @@
 <!-- <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark"> -->
-  
+
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top " style="background-color: #b3f31f;">
   <div class="container">
     <a class="navbar-brand" href="#">1kwm2</a>
@@ -15,7 +15,8 @@
             aria-expanded="false">Autoconsumo</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.solares.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('{{ item.href }}').click()" >{{ item.title }}</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.href }}').click()">{{
+                item.href }}</a></li>
             {% endfor %}
           </ul>
         </li>
@@ -24,10 +25,11 @@
             aria-expanded="false">Auditoria Energetica</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.auditorias.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('{{ item.href }}').click()" >{{ item.title }}</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('{{ item.href }}').click()">{{
+                item.title }}</a></li>
             {% endfor %}
           </ul>
-          
+
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
@@ -40,13 +42,23 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
-            aria-expanded="false">Ayudas FEDER</a>
+            aria-expanded="false">Ayudas PREE</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            {% for _, item in data.carousels.items() %}
+            {% for _, item in data.PREEs.items() %}
             <li><a class="dropdown-item" href="{{ item.href }}">{{ item.text }}</a></li>
             {% endfor %}
           </ul>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Ayudas FEDER</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            {% for _, item in data.FEDERs.items() %}
+            <li><a class="dropdown-item" href="{{ item.href }}">{{ item.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Ayuda</a>

@@ -1,7 +1,7 @@
-{% for _, item in data.formularios.items() %}
+{% for _, item in data.autoconsumos.items() %}
 
 <!-- Button trigger modal -->
-<button id="ae_ashrae" data-bs-target="#{{ item.title }}" type="button" class="btn btn-primary" data-bs-toggle="modal">
+<button id="boton_{{ item.title }}" data-bs-target="#{{ item.title }}" type="button" class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
@@ -24,5 +24,4 @@
         </div>
     </div>
 </div>
-
 {% endfor %}

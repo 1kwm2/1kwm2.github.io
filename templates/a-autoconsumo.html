@@ -2,24 +2,27 @@
 <div class="container">
   <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
     <div class="row" data-masonry='{"percentPosition": true }'">
-      <h1 class=" display-4 font-italic">Estudios Tecnicos</h1>
+      <h1 class=" display-4 font-italic">Autoconsumo</h1>
+      <p>Nuestros preferidos, comprometidos con el uso de energia renovable y eficiente</p>
       <div>
+
       </div>
     </div>
   </div>
 </div>
 
-<!-- <hr class=" my-5"> -->
+<!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
+
 <div class="container">
   <div class="row" data-masonry='{"percentPosition": true }'>
-    {% for _, item in data.estudios_tecnicos.items() %}
+    {% for _, item in data.autoconsumos.items() %}
     <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card bg-light">
         <img class="rounded" src='{{ item.img }}' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">{{ item.title }}</h5>
           <p class="card-text">{{ item.text }}.</p>
-          <a href="{{ item.href}}" class="stretched-link"></a>
+          <a href="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/{{ item.href}}" class="stretched-link"></a>
         </div>
       </div>
     </div>

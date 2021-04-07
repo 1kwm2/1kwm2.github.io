@@ -170,13 +170,13 @@ estudiotecnicos:
 
 auditorias:
   auditoria0:
-    img: static/img/zorrogallinas.png
+    img: static/img/audit-4190945_640.jpg
     title: ae_edificio
     text: ae_edificio.
     href: ae_edificio
     
   auditoria1:
-    img: static/img/solar-4824555_640.jpg
+    img: static/img/valves-495377_640.jpg
     title: ae_industria
     text:  ae_industria 
     href: ae_industria
@@ -187,7 +187,7 @@ auditorias:
 
 autoconsumos:
   autoconsumo0:
-    img: static/img/zorrogallinas.png
+    img: static/img/irrigation-588941_640.jpg
     title: fv_bombeo
     text: fv_bombeo.
     href: fv_bombeo
@@ -199,13 +199,13 @@ autoconsumos:
     href: fv_industrial
     
   autoconsumo2:
-    img: static/img/solar-panel-918492_640.jpg
+    img: static/img/solar-4478105_640.jpg
     title: fv_residencial
     text: fv_residencial 
     href: fv_residencial
 
   autoconsumo4:
-    img: static/img/car-3117778_640.jpg
+    img: static/img/7.jpg
     title: ae_edificio
     text: ae_edificio
     href: ae_edificio

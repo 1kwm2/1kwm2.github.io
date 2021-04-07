@@ -1,5 +1,18 @@
 
 carousels:
+  estudiotecnico02:
+    img: static/img/2021-03-18_20-18.png
+    title: Horas Solar Pico (HSP)
+    text: Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  estudiotecnico01:
+    img: static/img/2021-03-17_01-07.png
+    title: Ahorros
+    text: los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&V
+      ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***
+      Las buenas prácticas requieren que M&V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&V.
+    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
   carousel0:
     img: static/img/zorrogallinas.png
     title: Estudio Independiente y Gratuito
@@ -86,7 +99,7 @@ calculadorawebs:
 
 
 
-    
+
 
 
 

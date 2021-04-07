@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.79.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>1kwm2</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/masonry/">
@@ -265,10 +266,6 @@
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_PVWatts').click()">PVWatts</a></li>
-            
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_PVGIS').click()">PVGIS</a></li>
-            
             <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_Horas Solar Pico (HSP)').click()">Horas Solar Pico (HSP)</a></li>
             
             <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_Ahorros').click()">Ahorros</a></li>
@@ -365,30 +362,6 @@
 <!-- <hr class=" my-5"> -->
 <div class="container">
   <div class="row" data-masonry='{"percentPosition": true }'>
-    
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card bg-light">
-        <img class="rounded" src='static/img/pvwatts.png' class="img-fluid img-thumbnail" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">PVWatts</h5>
-          <p class="card-text">Calculadora PVWatts® de NREL Calcula la producción de energía y el costo de la energía de los sistemas de energía fotovoltaica (PV) conectados a la red en todo el mundo. Permite a los propietarios de viviendas, pequeños edificios, instaladores y fabricantes desarrollar fácilmente estimaciones del rendimiento de las instalaciones fotovoltaicas potenciales..</p>
-          <!-- <a href="https://pvwatts.nrel.gov/" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_PVWatts').click()" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card bg-light">
-        <img class="rounded" src='static/img/pvgis.png' class="img-fluid img-thumbnail" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">PVGIS</h5>
-          <p class="card-text">PVGIS proporciona acceso libre y gratuito a Potencial fotovoltaico para diferentes tecnologías y configuraciones de sistemas conectados a la red e independientes. Radiación solar y temperaturas, como promedios mensuales o perfiles diarios. Serie de tiempo completo de valores horarios tanto de radiación solar como de rendimiento fotovoltaico. Datos típicos del año meteorológico para nueve variables climáticas. Mapas, por país o región, de recursos solares y potencial fotovoltaico listos para imprimir. El software PVMAPS incluye todos los modelos de estimación utilizados en PVGIS..</p>
-          <!-- <a href="https://ec.europa.eu/jrc/en/pvgis" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_PVGIS').click()" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
     
     <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card bg-light">
@@ -1101,58 +1074,6 @@
     </div>
 </div>
 
-
-
-<!-- Button trigger modal -->
-<button hidden id="boton_PVWatts" data-bs-target="#PVWatts" type="button" class="btn btn-primary" data-bs-toggle="modal">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div id="PVWatts" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <iframe src="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev"
-                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
-            </div>
-            <div class="modal-footer">
-                <button hidden type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button hidden id="boton_PVGIS" data-bs-target="#PVGIS" type="button" class="btn btn-primary" data-bs-toggle="modal">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div id="PVGIS" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <iframe src="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev"
-                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
-            </div>
-            <div class="modal-footer">
-                <button hidden type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!-- Button trigger modal -->

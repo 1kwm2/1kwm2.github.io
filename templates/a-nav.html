@@ -14,9 +14,9 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Autoconsumo</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            {% for _, item in data.solares.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.href }}').click()">{{
-                item.href }}</a></li>
+            {% for _, item in data.autoconsumos.items() %}
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
+                item.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
@@ -25,7 +25,7 @@
             aria-expanded="false">Auditoria Energetica</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.auditorias.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.href }}').click()">{{
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>

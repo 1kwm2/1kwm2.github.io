@@ -99,6 +99,29 @@ calculadorawebs:
 
 
 
+autoconsumos:
+    
+  autoconsumo2:
+    img: static/img/solar-4478105_640.jpg
+    title: Residencial
+    text: Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
+    id: fv_residencial
+    href: fv_residencial
+
+  autoconsumo0:
+    img: static/img/irrigation-588941_640.jpg
+    title: Bombeo para riego
+    text: El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento..
+    id: fv_bombeo
+    href: fv_bombeo
+    
+  autoconsumo1:
+    img: static/img/solar-4824555_640.jpg
+    title: Industrial
+    text:  Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
+    id: fv_industrial
+    href: fv_industrial
+
 
 
 
@@ -171,38 +194,21 @@ estudiotecnicos:
 auditorias:
   auditoria0:
     img: static/img/audit-4190945_640.jpg
-    title: ae_edificio
+    title: Edificios Residencial
     text: llevamos a cabo el estudio en profundidad de un edificio con el objetivo de dar a conocer una serie de oportunidades de ahorro y eficiencia energética.
+    id: ae_edificio
     href: ae_edificio
     
   auditoria1:
     img: static/img/valves-495377_640.jpg
-    title: ae_industria
+    title: Industria
     text:  el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real
+    id: ae_industria
     href: ae_industria
     
 
 
 
-
-autoconsumos:
-  autoconsumo0:
-    img: static/img/irrigation-588941_640.jpg
-    title: fv_bombeo
-    text: El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento..
-    href: fv_bombeo
-    
-  autoconsumo1:
-    img: static/img/solar-4824555_640.jpg
-    title: fv_industrial
-    text:  Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
-    href: fv_industrial
-    
-  autoconsumo2:
-    img: static/img/solar-4478105_640.jpg
-    title: fv_residencial
-    text: Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
-    href: fv_residencial
 
 
 
@@ -558,35 +564,6 @@ blogs:
 
 
 
-
-
-
-
-
-
-    
-# se abrem modales con iframes del autoconsumo
-solares:
-  card1:
-    img: static/2021-02-07_12-27.png
-    title: Residencial_Unifamiliar
-    text: fasdfasd
-    href: fv_residencial
-  card2:
-    img: static/2021-02-06_16-50.png
-    title: Industrial
-    text: fasdfasd
-    href: fv_industrial
-  card3:
-    img: static/2021-02-07_12-27.png
-    title: Agro_Riego
-    text: fasdfasd
-    href: fv_bombeo
-  card4:
-    img: static/2021-02-07_12-27.png
-    title: Ganadero
-    text: fasdfasd
-    href: fv_ganadero
 
 
 

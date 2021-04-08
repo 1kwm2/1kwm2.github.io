@@ -1,88 +1,79 @@
 
 carousels:
-
-
   carousel0:
     img: static/img/zorrogallinas.png
     title: Estudio Independiente y Gratuito
     text: No proveemos equipos ni instalaciones.
     href: https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev
-
+# ==========================================================
 
   PREE1:
-    img: static/img/solar-4824555_640.jpg
+    img: static/img/solar-cells-191686_640.jpg
+    id: PREEEnergíasolartérmica
     title: PREE Energía solar térmica
     text:  Sustitución energía convencional por energía solar térmica
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
-  PREE2:
-    img: static/img/solar-panel-918492_640.jpg
-    title: PREE energía geotérmica
-    text: Sustitución de energía convencional por energía geotérmica. 
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE3:
-    img: static/img/energy-3125125_640.jpg
+    img: static/img/biomass-440392_640.jpg
+    id: PREEbiomasa 
     title: PREE biomasa 
     text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
-
-  carousel1:
-    img: static/img/solar-4824555_640.jpg
-    title: FEDER 
-    text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-    
-  carousel2:
-    img: static/img/solar-panel-918492_640.jpg
-    title: FEDER 
-    text: PYME y gran empresa sector industrial 
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-
-  carousel3:
-    img: static/img/energy-3125125_640.jpg
-    title: FEDER 
-    text: Instalaciones de producción de energía térmica con fuentes de energía renovable
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-
-  PREE3:
-    img: static/img/energy-3125125_640.jpg
-    title: PREE
-    text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-    
   PREE4:
-    img: static/img/car-3117778_640.jpg
-    title: PREE
+    img: static/img/heating-3212503_640.jpg
+    id: PREEsubsistemasdegeneración
+    title: PREE subsistemas de generación
     text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   PREE5:
-    img: static/img/solar-energy-3297945_640.jpg
-    title: PREE
+    img: static/img/tablet-2471184_640.jpg
+    id: PREEsubsistemasdedistribución
+    title: PREE subsistemas de distribución, regulación, control
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+
+  PREE6:
+    img: static/img/light-1030988_640.jpg
+    id: PREEiluminación
+    title: PREE iluminación
+    text: Mejora de las instalaciones de iluminación.
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
-  carousel4:
+    
+  FEDER1:
+    img: static/img/solar-4824555_640.jpg
+    id: FEDERsolarfotovoltaica
+    title: FEDER solar fotovoltaica
+    text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    
+  FEDER2:
+    img: static/img/solar-panel-918492_640.jpg
+    id: FEDERsectorindustrial
+    title: FEDER sector industrial
+    text: PYME y gran empresa sector industrial 
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+
+  FEDER3:
+    img: static/img/energy-3125125_640.jpg
+    id: FEDERenergiatermica
+    title: FEDER energía térmica
+    text: Instalaciones de producción de energía térmica con fuentes de energía renovable
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    
+  FEDER4:
     img: static/img/car-3117778_640.jpg
-    title: FEDER 
+    id: FEDERVEMOVALT
+    title: FEDER VE MOVALT
     text: Implantación de recarga de VE MOVALT infraestructura
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
-  carousel5:
-    img: static/img/solar-energy-3297945_640.jpg
-    title: FEDER 
-    text: PYME y gran empresa sector industrial
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
-  carousel6:
-    img: static/img/2021-03-24_13-30.png
-    title: FEDER 
-    text: Implantación de recarga de VE MOVALT infraestructura
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
     
-
 
 
 

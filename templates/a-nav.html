@@ -54,7 +54,7 @@
             aria-expanded="false">Ayudas FEDER</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.FEDERs.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.title }}').click()">{{ item.text }}</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{ item.text }}</a></li>
             {% endfor %}
           </ul>
         </li>

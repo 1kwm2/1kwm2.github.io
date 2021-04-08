@@ -30,19 +30,19 @@ carousels:
 
   carousel1:
     img: static/img/solar-4824555_640.jpg
-    title: Programa de ayudas FEDER
+    title: FEDER 
     text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
     
   carousel2:
     img: static/img/solar-panel-918492_640.jpg
-    title: Programa de ayudas FEDER
+    title: FEDER 
     text: PYME y gran empresa sector industrial 
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   carousel3:
     img: static/img/energy-3125125_640.jpg
-    title: Programa de ayudas FEDER
+    title: FEDER 
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
@@ -66,19 +66,19 @@ carousels:
     
   carousel4:
     img: static/img/car-3117778_640.jpg
-    title: Programa de ayudas FEDER
+    title: FEDER 
     text: Implantación de recarga de VE MOVALT infraestructura
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   carousel5:
     img: static/img/solar-energy-3297945_640.jpg
-    title: Programa de ayudas FEDER
+    title: FEDER 
     text: PYME y gran empresa sector industrial
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   carousel6:
     img: static/img/2021-03-24_13-30.png
-    title: Programa de ayudas FEDER
+    title: FEDER 
     text: Implantación de recarga de VE MOVALT infraestructura
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
     
@@ -181,13 +181,13 @@ auditorias:
   auditoria0:
     img: static/img/audit-4190945_640.jpg
     title: ae_edificio
-    text: ae_edificio.
+    text: llevamos a cabo el estudio en profundidad de un edificio con el objetivo de dar a conocer una serie de oportunidades de ahorro y eficiencia energética.
     href: ae_edificio
     
   auditoria1:
     img: static/img/valves-495377_640.jpg
     title: ae_industria
-    text:  ae_industria 
+    text:  el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real
     href: ae_industria
     
 
@@ -198,19 +198,19 @@ autoconsumos:
   autoconsumo0:
     img: static/img/irrigation-588941_640.jpg
     title: fv_bombeo
-    text: fv_bombeo.
+    text: El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento..
     href: fv_bombeo
     
   autoconsumo1:
     img: static/img/solar-4824555_640.jpg
     title: fv_industrial
-    text:  fv_industrial 
+    text:  Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
     href: fv_industrial
     
   autoconsumo2:
     img: static/img/solar-4478105_640.jpg
     title: fv_residencial
-    text: fv_residencial 
+    text: Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
     href: fv_residencial
 
 
@@ -262,39 +262,33 @@ PREEs:
 FEDERs:
   FEDER1:
     img: static/img/solar-4824555_640.jpg
-    title: Programa de ayudas FEDER
+    id: FEDERsolarfotovoltaica
+    title: FEDER solar fotovoltaica
     text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   FEDER2:
     img: static/img/solar-panel-918492_640.jpg
-    title: Programa de ayudas FEDER
+    id: FEDERsectorindustrial
+    title: FEDER sector industrial
     text: PYME y gran empresa sector industrial 
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
   FEDER3:
     img: static/img/energy-3125125_640.jpg
-    title: Programa de ayudas FEDER
+    id: FEDERenergiatermica
+    title: FEDER energía térmica
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
   FEDER4:
     img: static/img/car-3117778_640.jpg
-    title: Programa de ayudas FEDER
+    id: FEDERVEMOVALT
+    title: FEDER VE MOVALT
     text: Implantación de recarga de VE MOVALT infraestructura
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
-  FEDER5:
-    img: static/img/solar-energy-3297945_640.jpg
-    title: Programa de ayudas FEDER
-    text: PYME y gran empresa sector industrial
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
 
-  FEDER6:
-    img: static/img/2021-03-24_13-30.png
-    title: Programa de ayudas FEDER
-    text: Implantación de recarga de VE MOVALT infraestructura
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
 
 

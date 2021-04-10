@@ -240,13 +240,11 @@
             aria-expanded="false">Autoconsumo</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_residencial').click()">fv_residencial</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_residencial').click()">Residencial</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_industrial').click()">fv_industrial</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_bombeo').click()">Bombeo para riego</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_bombeo').click()">fv_bombeo</a></li>
-            
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_ganadero').click()">fv_ganadero</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_fv_industrial').click()">Industrial</a></li>
             
           </ul>
         </li>
@@ -255,9 +253,9 @@
             aria-expanded="false">Auditoria Energetica</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_ae_edificio').click()">ae_edificio</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_ae_edificio').click()">Edificios Residencial</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_ae_industria').click()">ae_industria</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_ae_industria').click()">Industria</a></li>
             
           </ul>
 
@@ -343,6 +341,101 @@
     </div>
   </div>
 </nav>
+<!-- <hr class=" my-5"> -->
+<div class="container">
+  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
+    <div class="row" data-masonry='{"percentPosition": true }'">
+      <h1 class=" display-4 font-italic">Autoconsumo</h1>
+      <p>Nuestros preferidos, comprometidos con el uso de energia renovable y eficiente</p>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
+
+<div class="container">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/solar-4478105_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Residencial</h5>
+          <p class="card-text">Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución..</p>
+          <a href="#" onclick="document.getElementById('boton_fv_residencial').click()" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/irrigation-588941_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bombeo para riego</h5>
+          <p class="card-text">El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento...</p>
+          <a href="#" onclick="document.getElementById('boton_fv_bombeo').click()" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/solar-4824555_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Industrial</h5>
+          <p class="card-text">Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución..</p>
+          <a href="#" onclick="document.getElementById('boton_fv_industrial').click()" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- <hr class=" my-5"> -->
+<div class="container">
+  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
+    <div class="row" data-masonry='{"percentPosition": true }'">
+      <h1 class=" display-4 font-italic">Auditoria Energetica</h1>
+      <p>Por un futuro sin tanto CO2</p>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
+
+<div class="container">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/audit-4190945_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Edificios Residencial</h5>
+          <p class="card-text">llevamos a cabo el estudio en profundidad de un edificio con el objetivo de dar a conocer una serie de oportunidades de ahorro y eficiencia energética..</p>
+          <a href="#" onclick="document.getElementById('boton_ae_edificio').click()" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="rounded" src='static/img/valves-495377_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Industria</h5>
+          <p class="card-text">el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real.</p>
+          <a href="#" onclick="document.getElementById('boton_ae_industria').click()" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 <!-- <hr class=" my-5"> -->
 <div class="container">
   <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
@@ -445,101 +538,6 @@
   </div>
 </div>
 
-<!-- <hr class=" my-5"> -->
-<div class="container">
-  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
-    <div class="row" data-masonry='{"percentPosition": true }'">
-      <h1 class=" display-4 font-italic">Autoconsumo</h1>
-      <p>Nuestros preferidos, comprometidos con el uso de energia renovable y eficiente</p>
-      <div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
-
-<div class="container">
-  <div class="row" data-masonry='{"percentPosition": true }'>
-    
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card bg-light">
-        <img class="rounded" src='static/img/irrigation-588941_640.jpg' class="img-fluid img-thumbnail" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">fv_bombeo</h5>
-          <p class="card-text">El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento...</p>
-          <a href="#" onclick="document.getElementById('boton_fv_bombeo').click()" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card bg-light">
-        <img class="rounded" src='static/img/solar-4824555_640.jpg' class="img-fluid img-thumbnail" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">fv_industrial</h5>
-          <p class="card-text">Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución..</p>
-          <a href="#" onclick="document.getElementById('boton_fv_industrial').click()" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card bg-light">
-        <img class="rounded" src='static/img/solar-4478105_640.jpg' class="img-fluid img-thumbnail" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">fv_residencial</h5>
-          <p class="card-text">Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución..</p>
-          <a href="#" onclick="document.getElementById('boton_fv_residencial').click()" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</div>
-<!-- <hr class=" my-5"> -->
-<div class="container">
-  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
-    <div class="row" data-masonry='{"percentPosition": true }'">
-      <h1 class=" display-4 font-italic">Auditoria Energetica</h1>
-      <p>Por un futuro sin tanto CO2</p>
-      <div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
-
-<div class="container">
-  <div class="row" data-masonry='{"percentPosition": true }'>
-    
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card bg-light">
-        <img class="rounded" src='static/img/audit-4190945_640.jpg' class="img-fluid img-thumbnail" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">ae_edificio</h5>
-          <p class="card-text">llevamos a cabo el estudio en profundidad de un edificio con el objetivo de dar a conocer una serie de oportunidades de ahorro y eficiencia energética..</p>
-          <a href="#" onclick="document.getElementById('boton_ae_edificio').click()" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card bg-light">
-        <img class="rounded" src='static/img/valves-495377_640.jpg' class="img-fluid img-thumbnail" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">ae_industria</h5>
-          <p class="card-text">el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real.</p>
-          <a href="#" onclick="document.getElementById('boton_ae_industria').click()" class="stretched-link"></a>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</div>
 <div class="container">
     <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
         <div class="row" data-masonry='{"percentPosition": true }'">
@@ -903,6 +901,34 @@
 
 
 <!-- Button trigger modal -->
+<button hidden id="boton_fv_residencial" data-bs-target="#fv_residencial" type="button" class="btn btn-primary" data-bs-toggle="modal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div id="fv_residencial" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-4478105_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
+                <!-- <img class="rounded" src='static/img/solar-4478105_640.jpg' class="img-fluid img-thumbnail" alt="..."> -->
+                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_residencial"
+                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button hidden type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
 <button hidden id="boton_fv_bombeo" data-bs-target="#fv_bombeo" type="button" class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
@@ -916,9 +942,9 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-image text-light " style="background-image: url('static/img/irrigation-588941_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
-                <img class="rounded" src='static/img/irrigation-588941_640.jpg' class="img-fluid img-thumbnail" alt="...">
+                <!-- <img class="rounded" src='static/img/irrigation-588941_640.jpg' class="img-fluid img-thumbnail" alt="..."> -->
                 <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo"
                     frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>
@@ -944,38 +970,10 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-4824555_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
-                <img class="rounded" src='static/img/solar-4824555_640.jpg' class="img-fluid img-thumbnail" alt="...">
+                <!-- <img class="rounded" src='static/img/solar-4824555_640.jpg' class="img-fluid img-thumbnail" alt="..."> -->
                 <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial"
-                    frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
-            </div>
-            <div class="modal-footer">
-                <button hidden type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button hidden id="boton_fv_residencial" data-bs-target="#fv_residencial" type="button" class="btn btn-primary" data-bs-toggle="modal">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div id="fv_residencial" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
-                <img class="rounded" src='static/img/solar-4478105_640.jpg' class="img-fluid img-thumbnail" alt="...">
-                <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_residencial"
                     frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>
             <div class="modal-footer">
@@ -1002,9 +1000,9 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-image text-light " style="background-image: url('static/img/audit-4190945_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
-                <img class="rounded" src='static/img/audit-4190945_640.jpg' class="img-fluid img-thumbnail" alt="...">
+                <!-- <img class="rounded" src='static/img/audit-4190945_640.jpg' class="img-fluid img-thumbnail" alt="..."> -->
                 <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_edificio"
                     frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>
@@ -1031,9 +1029,9 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-image text-light " style="background-image: url('static/img/valves-495377_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
-                <img class="rounded" src='static/img/valves-495377_640.jpg' class="img-fluid img-thumbnail" alt="...">
+                <!-- <img class="rounded" src='static/img/valves-495377_640.jpg' class="img-fluid img-thumbnail" alt="..."> -->
                 <iframe src="https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/ae_industria"
                     frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>
             </div>

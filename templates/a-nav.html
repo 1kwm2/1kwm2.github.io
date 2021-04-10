@@ -1,4 +1,11 @@
 <!-- <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark"> -->
+<!-- http://bootstrapessentials.com/fulldocs/components/ -->
+
+
+<style>
+  .dropdown-hover-all .dropdown-menu, .dropdown-hover > .dropdown-menu.dropend { margin-left:-1px !important }
+</style>
+
 
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top " style="background-color: #b3f31f;">
   <div class="container">
@@ -12,19 +19,23 @@
         <!-- <li class="nav-item dropup"> -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
-            aria-expanded="false">Autoconsumo</a>
+            aria-expanded="false">Asesoria</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.autoconsumos.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">Autoconsumo.- {{
+                item.title }}</a></li>
+            {% endfor %}
+            {% for _, item in data.auditorias.items() %}
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">Energetico.-{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
-            aria-expanded="false">Auditoria Energetica</a>
+            aria-expanded="false">Proyectos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            {% for _, item in data.auditorias.items() %}
+            {% for _, item in data.proyectos.items() %}
             <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
                 item.title }}</a></li>
             {% endfor %}
@@ -36,27 +47,25 @@
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.estudiotecnicos.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.title }}').click()">{{ item.title }}</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.title }}').click()">{{
+                item.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
-            aria-expanded="false">Ayudas PREE</a>
+            aria-expanded="false">Subvenciones</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.PREEs.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{ item.text }}</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">PREE.-{{
+                item.text }}</a></li>
             {% endfor %}
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
-            aria-expanded="false">Ayudas FEDER</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.FEDERs.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{ item.text }}</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">FEDER.-{{
+                item.text }}</a></li>
             {% endfor %}
           </ul>
+
         </li>
 
         <li class="nav-item dropdown">
@@ -67,7 +76,8 @@
             </li>
             <li><a class="dropdown-item" href="https://4ch7re1re3.execute-api.eu-west-1.amazonaws.com/dev">Contacto</a>
             </li>
-            <li><a role="button" class="dropdown-item" href="#bblog">Blog</a>
+            <li><a role="button" class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_menuA').click()">Blog</a>
             </li>
             <li><a onclick="document.getElementById('bookmarks').click()" role="button" class="dropdown-item"
                 href="#bblog">bookmarks</a>
@@ -86,3 +96,4 @@
     </div>
   </div>
 </nav>
+

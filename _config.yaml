@@ -99,6 +99,43 @@ calculadorawebs:
 
 
 
+
+proyectos:
+  proyecto2:
+    img: static/img/solar-4478105_640.jpg
+    title: fotovoltaico
+    text: Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
+    id: p_fotovoltaico
+    href: contacto
+
+  proyecto0:
+    img: static/img/irrigation-588941_640.jpg
+    title: aerogenerador
+    text: El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento..
+    id: fv_aerogenerador
+    href: contacto
+    
+  proyecto1:
+    img: static/img/solar-4824555_640.jpg
+    title: Biomasa
+    text:  Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
+    id: fv_industrial
+    href: contacto
+
+  proyecto3:
+    img: static/img/solar-4824555_640.jpg
+    title: Termosolar
+    text:  Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
+    id: fv_industrial
+    href: contact
+
+
+
+
+
+
+
+
 autoconsumos:
     
   autoconsumo2:

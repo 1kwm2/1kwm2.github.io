@@ -100,6 +100,9 @@ calculadorawebs:
 
 
 
+
+
+
 proyectos:
   proyecto2:
     img: static/img/solar-4478105_640.jpg
@@ -137,7 +140,13 @@ proyectos:
 
 
 autoconsumos:
-    
+  autoconsumo3:
+    img: static/img/solar-4478105_640.jpg
+    title: Puntos de recarga de vehículos eléctricos
+    text: Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
+    id: fv_puntosrecarga
+    href: Puntos de recarga
+ 
   autoconsumo2:
     img: static/img/solar-4478105_640.jpg
     title: Residencial
@@ -158,6 +167,9 @@ autoconsumos:
     text:  Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
     id: fv_industrial
     href: fv_industrial
+
+
+
 
 
 

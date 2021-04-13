@@ -141,10 +141,10 @@ proyectos:
 
 autoconsumos:
   autoconsumo3:
-    img: static/img/solar-4478105_640.jpg
+    img: static/img/car-3117778_640.jpg
     title: Puntos de recarga de vehículos eléctricos
     text: Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
-    id: fv_puntosrecarga
+    id: recarga
     href: Puntos de recarga
  
   autoconsumo2:

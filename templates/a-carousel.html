@@ -1,7 +1,9 @@
 <div class="container">
 
+
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+
             <div class="carousel-item active">
                 <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;"
                     src='static/img/auditoriasE.jpg' alt="Second slide">
@@ -15,7 +17,9 @@
                         </p>
                     </div>
                 </div>
+
             </div>
+
             {% for _, item in data.carousels.items() %}
 
             <div class="carousel-item">
@@ -33,6 +37,7 @@
             {% endfor %}
 
         </div>
+
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>

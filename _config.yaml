@@ -186,7 +186,6 @@ estudiotecnicos:
     title: Ahorros
     text: los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&V
       ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***
-      Las buenas prácticas requieren que M&V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&V.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   estudiotecnico0:

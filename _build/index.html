@@ -29,7 +29,14 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 
- 
+ <style>
+   /* para que todas la images de las cardas sean dela misma longitud */
+   .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+ </style>
 
 </head>
 
@@ -357,49 +364,83 @@
 
 <!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
 
+
+
 <div class="container">
-  <div class="row" data-masonry='{"percentPosition": true }'>
+  <div class="row">
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/car-3117778_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/car-3117778_640.jpg' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Puntos de recarga de vehículos eléctricos</h5>
           <p class="card-text">Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución..</p>
           <a href="#" onclick="document.getElementById('boton_recarga').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/solar-4478105_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/solar-4478105_640.jpg' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Residencial</h5>
           <p class="card-text">Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución..</p>
           <a href="#" onclick="document.getElementById('boton_fv_residencial').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/irrigation-588941_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/irrigation-588941_640.jpg' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Bombeo para riego</h5>
           <p class="card-text">El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento...</p>
           <a href="#" onclick="document.getElementById('boton_fv_bombeo').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/solar-4824555_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/solar-4824555_640.jpg' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Industrial</h5>
           <p class="card-text">Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución..</p>
           <a href="#" onclick="document.getElementById('boton_fv_industrial').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
@@ -421,27 +462,47 @@
 
 <!-- https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial -->
 
+
+
+
+
 <div class="container">
-  <div class="row" data-masonry='{"percentPosition": true }'>
+  <div class="row">
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/audit-4190945_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/audit-4190945_640.jpg' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Edificios Residencial</h5>
           <p class="card-text">llevamos a cabo el estudio en profundidad de un edificio con el objetivo de dar a conocer una serie de oportunidades de ahorro y eficiencia energética..</p>
           <a href="#" onclick="document.getElementById('boton_ae_edificio').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/valves-495377_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/valves-495377_640.jpg' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Industria</h5>
           <p class="card-text">el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real.</p>
           <a href="#" onclick="document.getElementById('boton_ae_industria').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
@@ -459,97 +520,148 @@
   </div>
 </div>
 
-<!-- <hr class=" my-5"> -->
+
+
+
+
 <div class="container">
-  <div class="row" data-masonry='{"percentPosition": true }'>
+  <div class="row">
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-03-18_20-18.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-03-18_20-18.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Horas Solar Pico (HSP)</h5>
           <p class="card-text">Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia.</p>
-          <!-- <a href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_Horas Solar Pico (HSP)').click()" class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-03-17_01-07.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-03-17_01-07.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ahorros</h5>
-          <p class="card-text">los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&amp;V ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes*** Las buenas prácticas requieren que M&amp;V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&amp;V..</p>
-          <!-- <a href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_Ahorros').click()" class="stretched-link"></a>
+          <p class="card-text">los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&amp;V ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***.</p>
+          <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-03-17_01-26.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-03-17_01-26.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Rentabilidad</h5>
           <p class="card-text">Este parámetro proporciona un índice oporunidad de la invesion. Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kWh, que resulta mas de la mitad del consumo medio de un hogar, signfica que con 20 m2 y acumulacion esaria cubierta la demanda..</p>
-          <!-- <a href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_Rentabilidad').click()" class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-02-11_00-27.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-02-11_00-27.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">GradosDia</h5>
           <p class="card-text">Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana..</p>
-          <!-- <a href="https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_GradosDia').click()" class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-02-11_02-40.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-02-11_02-40.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Perdidas_por_orientacion</h5>
           <p class="card-text">La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo..</p>
-          <!-- <a href="https://cj5zllyfaa.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_Perdidas_por_orientacion').click()" class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-02-11_12-38.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-02-11_12-38.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Perdidas_por_inclinacion</h5>
           <p class="card-text">La radiación solar incidente es maxima en el perido anual para una inclinacion igual a la latitud, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion y uso..</p>
-          <!-- <a href="https://zg7lpfre3m.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_Perdidas_por_inclinacion').click()" class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
-    <div class="col-sm-6 col-lg-4 mb-4">
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="rounded" src='static/img/2021-02-12_14-15.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-02-12_14-15.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
           <h5 class="card-title">Perdidas_por_sombras</h5>
           <p class="card-text">Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la banda de trayectorias del Sol a lo largo de todo el año.</p>
-          <!-- <a href="https://ph1apditp4.execute-api.eu-west-1.amazonaws.com/dev" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_Perdidas_por_sombras').click()" class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
         </div>
       </div>
     </div>
     
   </div>
 </div>
-
 <div class="container">
     <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
         <div class="row" data-masonry='{"percentPosition": true }'">
@@ -643,97 +755,128 @@
     </div>
 </div>
 
-<div class="container">
-    <hr class="my-5">
-    <div class="row" data-masonry='{"percentPosition": true }'>
-        
-        <div class="col-sm-4 col-lg-4 mb-4">
-            <div class="card bg-light  ">
-                <img src='static/img/2021-03-14_21-05.png' class="img-fluid img-thumbnail" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">TRAMITACIÓN ADMINISTRATIVA DE LAS INSTALACIONES DE GENERACIÓN DE ENERGÍA ELÉCTRICA EN RÉGIMEN DE AUTOCONSUMO EN LA COMUNIDAD AUTÓNOMA DE ANDALUCÍA</h5>
-                    <p class="card-text">Se publica el siguiente manual donde se detallan los pasos a seguir en dicho proceso de legalización de la instalación.</p>
-                </div>
-                <!-- Button trigger modal -->
-                <button id="bexampleModal10" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal10" class="stretched-link"> leer</button>
-                <!-- <a href="" onclick="document.getElementById('bexampleModal10').click" class="stretched-link"></a> -->
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-lg-4 mb-4">
-            <div class="card bg-light  ">
-                <img src='static/img/2020-12-15_20-46.png' class="img-fluid img-thumbnail" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Bajar la potencia contratada</h5>
-                    <p class="card-text">Si, finalmente, llegas a la conclusión de que tienes contratada más potencia de la que necesitas, puedes solicitar a tu compañía una disminución de los Kw contratados. De hecho, existen unas potencias normalizadas, dependiendo del Interruptor del Control de Potencia que tengamos..</p>
-                </div>
-                <!-- Button trigger modal -->
-                <button id="bexampleModal" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal" class="stretched-link"> leer</button>
-                <!-- <a href="" onclick="document.getElementById('bexampleModal').click" class="stretched-link"></a> -->
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-lg-4 mb-4">
-            <div class="card bg-light  ">
-                <img src='static/img/2020-12-15_20-28.png' class="img-fluid img-thumbnail" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">BAJAR EL IMPACTO MEDIOAMBIENTAL DE MI CONSUMO</h5>
-                    <p class="card-text">Compruebe al final de su factura y contemple la posibilidad de cambiar de compañía eléctrica, ademas de ser una gestión que puede implicar un importante ahorro económico en la factura de la luz. El cliente puede considerar que paga demasiado, lo que le impulsa a buscar nuevas ofertas en el mercado de electricidad y realizar un traspaso a otra empresa energética..</p>
-                </div>
-                <!-- Button trigger modal -->
-                <button id="bexampleModaljiji" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModaljiji" class="stretched-link"> leer</button>
-                <!-- <a href="" onclick="document.getElementById('bexampleModaljiji').click" class="stretched-link"></a> -->
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-lg-4 mb-4">
-            <div class="card bg-light  ">
-                <img src='static/img/2020-12-15_20-50.png' class="img-fluid img-thumbnail" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">El proceso de cambio de suministrador de electricidad o gas</h5>
-                    <p class="card-text">Consultar los comercializadores. Cualquier consumidor puede elegir libremente el comercializador con el que desea contratar..</p>
-                </div>
-                <!-- Button trigger modal -->
-                <button id="bexampleModal3" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal3" class="stretched-link"> leer</button>
-                <!-- <a href="" onclick="document.getElementById('bexampleModal3').click" class="stretched-link"></a> -->
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-lg-4 mb-4">
-            <div class="card bg-light  ">
-                <img src='static/img/2020-12-15_20-44.png' class="img-fluid img-thumbnail" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Bajar el consumo de Energia Reactiva</h5>
-                    <p class="card-text">.</p>
-                </div>
-                <!-- Button trigger modal -->
-                <button id="bexampleModal4" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal4" class="stretched-link"> leer</button>
-                <!-- <a href="" onclick="document.getElementById('bexampleModal4').click" class="stretched-link"></a> -->
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-lg-4 mb-4">
-            <div class="card bg-light  ">
-                <img src='static/img/2021-02-19_10-45.png' class="img-fluid img-thumbnail" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ayudas para actuaciones de rehabilitación energética</h5>
-                    <p class="card-text">Real Decreto 737/2020 Ayudas para actuaciones de rehabilitación energética.</p>
-                </div>
-                <!-- Button trigger modal -->
-                <button id="bexampleModal5" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal5" class="stretched-link"> leer</button>
-                <!-- <a href="" onclick="document.getElementById('bexampleModal5').click" class="stretched-link"></a> -->
-            </div>
-        </div>
-        
-    </div>
-</div>
 
+
+
+<div class="container">
+    <div class="row">
+      
+      <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+        <div class="card bg-light">
+          <img class="card-img-top" src='static/img/2021-03-14_21-05.png' class="img-fluid img-thumbnail" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TRAMITACIÓN ADMINISTRATIVA DE LAS INSTALACIONES DE GENERACIÓN DE ENERGÍA ELÉCTRICA EN RÉGIMEN DE AUTOCONSUMO EN LA COMUNIDAD AUTÓNOMA DE ANDALUCÍA</h5>
+            <p class="card-text">Se publica el siguiente manual donde se detallan los pasos a seguir en dicho proceso de legalización de la instalación.</p>
+            <a href="#" onclick="document.getElementById('boton_exampleModal10').click()" class="stretched-link"></a>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div> -->
+              <small class="text-muted">1 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+        <div class="card bg-light">
+          <img class="card-img-top" src='static/img/2020-12-15_20-46.png' class="img-fluid img-thumbnail" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bajar la potencia contratada</h5>
+            <p class="card-text">Si, finalmente, llegas a la conclusión de que tienes contratada más potencia de la que necesitas, puedes solicitar a tu compañía una disminución de los Kw contratados. De hecho, existen unas potencias normalizadas, dependiendo del Interruptor del Control de Potencia que tengamos..</p>
+            <a href="#" onclick="document.getElementById('boton_exampleModal').click()" class="stretched-link"></a>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div> -->
+              <small class="text-muted">1 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+        <div class="card bg-light">
+          <img class="card-img-top" src='static/img/2020-12-15_20-28.png' class="img-fluid img-thumbnail" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BAJAR EL IMPACTO MEDIOAMBIENTAL DE MI CONSUMO</h5>
+            <p class="card-text">Compruebe al final de su factura y contemple la posibilidad de cambiar de compañía eléctrica, ademas de ser una gestión que puede implicar un importante ahorro económico en la factura de la luz. El cliente puede considerar que paga demasiado, lo que le impulsa a buscar nuevas ofertas en el mercado de electricidad y realizar un traspaso a otra empresa energética..</p>
+            <a href="#" onclick="document.getElementById('boton_exampleModaljiji').click()" class="stretched-link"></a>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div> -->
+              <small class="text-muted">1 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+        <div class="card bg-light">
+          <img class="card-img-top" src='static/img/2020-12-15_20-50.png' class="img-fluid img-thumbnail" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">El proceso de cambio de suministrador de electricidad o gas</h5>
+            <p class="card-text">Consultar los comercializadores. Cualquier consumidor puede elegir libremente el comercializador con el que desea contratar..</p>
+            <a href="#" onclick="document.getElementById('boton_exampleModal3').click()" class="stretched-link"></a>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div> -->
+              <small class="text-muted">1 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+        <div class="card bg-light">
+          <img class="card-img-top" src='static/img/2020-12-15_20-44.png' class="img-fluid img-thumbnail" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bajar el consumo de Energia Reactiva</h5>
+            <p class="card-text">.</p>
+            <a href="#" onclick="document.getElementById('boton_exampleModal4').click()" class="stretched-link"></a>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div> -->
+              <small class="text-muted">1 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+        <div class="card bg-light">
+          <img class="card-img-top" src='static/img/2021-02-19_10-45.png' class="img-fluid img-thumbnail" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ayudas para actuaciones de rehabilitación energética</h5>
+            <p class="card-text">Real Decreto 737/2020 Ayudas para actuaciones de rehabilitación energética.</p>
+            <a href="#" onclick="document.getElementById('boton_exampleModal5').click()" class="stretched-link"></a>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div> -->
+              <small class="text-muted">1 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 
 <!-- Modal -->
@@ -1132,7 +1275,7 @@
             </div>
             <div class="modal-body">
                 <!-- <h1>Ahorros</h1>
-                <h2> los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&amp;V ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes*** Las buenas prácticas requieren que M&amp;V esté bien integrado en el proceso de identificación, desarrollo, adquisición, instalación y operación de medidas de conservación de energía. El marco de trabajo de IPMVP requiere que se realicen ciertas actividades en puntos clave de este proceso y describe otras actividades importantes que deben incluirse como parte de las buenas prácticas de M&amp;V. </h2>
+                <h2> los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&amp;V ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes*** </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='static/img/2021-03-17_01-07.png' class="img-fluid img-thumbnail" alt="..."> -->
                 <iframe src="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev" frameborder="0" allowfullscreen

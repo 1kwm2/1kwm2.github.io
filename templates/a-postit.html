@@ -1,21 +1,16 @@
-<link href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regssular" rel="stylesheet" type="text/css">
 <style type="text/css">
-    * {
-        margin: 0;
-        padding: 0;
+    ul.postit,
+    li.postit {
+        list-style: none
     }
 
-    ssul,
-    li {
-        list-style: none;
-    }
-
-    ssul {
+    ul.postit {
         overflow: hidden;
-        padding: 3em;
+        padding: 3em
     }
 
-    ssul li a {
+    ul.postit li a {
+        z-index: 4;
         text-decoration: none;
         color: #000;
         background: #ffc;
@@ -28,92 +23,87 @@
         box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
         -moz-transition: -moz-transform .15s linear;
         -o-transition: -o-transform .15s linear;
-        -webkit-transition: -webkit-transform .15s linear;
+        -webkit-transition: -webkit-transform .15s linear
     }
 
-    ssul li {
-        margin: 1em;
-        float: left;
+    ul.postit li {
+        margin: 1em
     }
 
-    ssul li h2 {
-        font-size: 140%;
+    ul.postit li h2 {
+        font-size: 120%;
         font-weight: bold;
-        padding-bottom: 10px;
+        padding-bottom: 0;
+        padding-top: 1px
     }
 
-    ssul li p {
+    ul.postit li p {
         font-family: "Reenie Beanie", arial, sans-serif;
         font-size: 180%;
+        padding-left: 0
     }
 
-    ssul li a {
+    ul.postit ul li a {
         -webkit-transform: rotate(-6deg);
         -o-transform: rotate(-6deg);
-        -moz-transform: rotate(-6deg);
+        -moz-transform: rotate(-6deg)
     }
 
-    ssul li:nth-child(even) a {
-        -o-transform: rotate(4deg);
-        -webkit-transform: rotate(4deg);
-        -moz-transform: rotate(4deg);
-        position: sticky;
-        top: 5px;
-        background: #cfc;
+    ul.postit li:nth-child(1) a {
+        -o-transform: rotate(14deg);
+        -webkit-transform: rotate(14deg);
+        -moz-transform: rotate(14deg);
+        position: absolute;
+        top: 5em;
+        right: 15em;
+        background: #ffc
     }
 
-    ssul li:nth-child(3n) a {
+    ul.postit li:nth-child(2) a {
         -o-transform: rotate(-3deg);
         -webkit-transform: rotate(-3deg);
         -moz-transform: rotate(-3deg);
-        position: sticky;
-        top: -5px;
-        background: #ccf;
+        position: absolute;
+        top: 5em;
+        right: 20em;
+        background: #cfc
     }
 
-    ssul li:nth-child(5n) a {
+    ul.postit li:nth-child(3) a {
         -o-transform: rotate(5deg);
         -webkit-transform: rotate(5deg);
         -moz-transform: rotate(5deg);
-        position: sticky;
-        top: -10px;
+        position: absolute;
+        top: 10em;
+        right: 30em;
+        background: #ccf
     }
 
-    ssul li a:hover,
-    ssul li a:focus {
+    ul.postit li a:hover,
+    ul.postit li a:focus {
         box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
         -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
         -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
         -webkit-transform: scale(1.25);
         -moz-transform: scale(1.25);
         -o-transform: scale(1.25);
-        position: sticky;
-        z-index: 5;
-    }
-
-    ol {
-        text-align: center;
-    }
-
-    ol li {
-        display: inline;
-        padding-right: 1em;
-    }
-
-    ol li a {
-        color: #fff;
+        z-index: 5
     }
 </style>
-<div class="container">
 
-    <ssul>
-        <li>
-            <a href="#" onclick="document.getElementById('boton_fv_residencial').click()">
-                <p style="font-family:Reenie Beanie;" >ppto FV</p>
+<div class="container">
+    <ul class="postit">
+        <li class="postit">
+            <a href="/es/datainput.aspx">
+                <p style="font-family:Cursive;">arena pal gato</p>
             </a>
         </li>
-
-
-
-    </ssul>
+        <li class="postit">
+            <a href="#" onclick="document.getElementById('boton_fv_residencial').click()">
+                <center>
+                    <p style="font-family:Cursive;">pedir prspuesto FV</p>
+                </center>
+            </a>
+        </li>
+    </ul>
 </div>

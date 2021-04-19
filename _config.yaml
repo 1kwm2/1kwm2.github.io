@@ -191,7 +191,7 @@ estudiotecnicos:
   estudiotecnico0:
     img: static/img/2021-03-17_01-26.png
     title: Rentabilidad
-    text: Este parámetro proporciona un índice oporunidad de la invesion. Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kWh, que resulta mas de la mitad del consumo medio de un hogar, signfica que con 20 m2 y acumulacion esaria cubierta la demanda.
+    text: Ejemplo FV (redondeando en Esp.). Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kW, que a 4 kWh/d y  0.15 Euros/kw rentan 300 E/a con lo que seria cuestionable una inversion de mas de 1500 Euros. (Hay en el mercado superofertas a 4000 E)
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   estudiotecnico1:

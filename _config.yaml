@@ -374,10 +374,10 @@ linksblogs:
     href: https://fundacionrenovables.org/documentos/
     src: https://fundacionrenovables.org/wp-content/uploads/2020/09/Logo_FR_Pos-web.png
     
-  card23:
-    title: ases
-    href: https://ases.org/solartoday/
-    src: https://ases.org/wp-content/uploads/2019/02/ASES_logo.svg
+  card27:
+    title: nist
+    href: https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.85-3273-35.pdf
+    src: https://www.nist.gov/libraries/nist-component-library/dist/img/logo/nist_logo_sidestack_rev.svg
     
   card23:
     title: ases

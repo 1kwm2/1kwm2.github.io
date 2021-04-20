@@ -1,0 +1,46 @@
+<!-- <hr class=" my-5"> -->
+<div class="container">
+  <div id="bblog" class="p-4 p-md-5 mb-4 text-white rounded bg-secondary">
+    <div class="row" data-masonry='{"percentPosition": true }'">
+      <h1 class=" display-4 font-italic">redes sociales</h1>
+      <div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+    <h6 class="border-bottom pb-2 mb-0">Sugerencias</h6>
+    <div class="d-flex text-muted pt-3">
+      {% for _, item in data.red_socials.items() %}
+      <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+        <div class="d-flex justify-content-between">
+          <!-- <strong class="text-gray-dark">{{ item.title }}</strong> -->
+          <a href="{{ item.href }}"> <span class="d-block">@{{ item.title }}</span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+
+</div>
+</main>
+
+
+
+<h1></h1>
+
+
+
+
+
+<!-- red_socials:
+  red_social02:
+    img: https://twitter.com/IDAEenergia/photo
+    title: IDAEenergia
+    text: IDAEenergia
+    href: https://twitter.com/IDAEenergia/ -->

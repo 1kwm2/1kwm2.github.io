@@ -173,6 +173,56 @@ autoconsumos:
 
 
 
+red_socials:
+  red_social02:
+    img: https://twitter.com/IDAEenergia/photo
+    title: IDAEenergia
+    text: IDAEenergia
+    href: https://twitter.com/IDAEenergia/
+
+
+
+  red_social03:
+    img: https://twitter.com/IDAEenergia/photo
+    title: EnergiaAnd
+    text: EnergiaAnd
+    href: https://twitter.com/EnergiaAnd
+
+
+
+  red_social04:
+    img: https://twitter.com/IDAEenergia/photo
+    title: FRenovables
+    text: FRenovables
+    href: https://twitter.com/FRenovables
+
+
+
+  red_social05:
+    img: https://twitter.com/IDAEenergia/photo
+    title: ERenovables
+    text: ERenovables
+    href: https://twitter.com/ERenovables
+
+
+
+  red_social04:
+    img: https://twitter.com/IDAEenergia/photo
+    title: FRenovables
+    text: FRenovables
+    href: https://twitter.com/CENER_Energia
+
+
+
+  red_social04:
+    img: https://twitter.com/IDAEenergia/photo
+    title: FRenovables
+    text: FRenovables
+    href: https://twitter.com/FRenovables
+
+
+
+
 
 
 estudiotecnicos:
@@ -474,8 +524,8 @@ linksblogs:
     src: https://es.greenpeace.org/es/wp-content/themes/gp/assets/images/greenpeace-logo-verde.svg
   card2:
     title: IDAE
-    href: https://laenergiadeluzia.es/
-    src: https://www.idae.es/profiles/idae/themes/idae_static/logo.png
+    href: https://www.idae.es/links-and-directories
+    src: https://www.idae.es/sites/default/files/images/header_logo.png
   card3:
     title: NASA
     href: https://climate.nasa.gov/blog/
@@ -500,6 +550,11 @@ linksblogs:
     title: energystar
     href: https://www.energystar.gov/
     src: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Energy_Star_logo.svg/1024px-Energy_Star_logo.svg.png
+
+  card008:
+    title: european-union
+    href: https://europa.eu/european-union/topics/energy_es
+    src: https://europa.eu/european-union/sites/europaeu/themes/europaeu_theme/images/europa-flag.gif
 
 
 

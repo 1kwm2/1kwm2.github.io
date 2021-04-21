@@ -233,14 +233,14 @@ red_socials:
 estudiotecnicos:
   estudiotecnico01:
     img: static/img/2021-04-21_17-30.png
-    title: Coste del Ciclo de Vida (LCC)
-    text: Combinación óptima de tecnologías de energía renovable, generación convencional y almacenamiento de energía para reducir el CCV.
+    title: Coste_Ciclo_Vida
+    text: Simulacion del mix óptimo de tecnologías de energía renovable y almacenamiento de energía para reducir el LCC.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   estudiotecnico02:
     img: static/img/2021-03-18_20-18.png
-    title: Horas Solar Pico (HSP)
-    text: Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
+    title: Horas_Solar_Pico
+    text: HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
   estudiotecnico0:

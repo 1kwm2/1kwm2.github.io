@@ -286,9 +286,9 @@
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_Horas Solar Pico (HSP)').click()">Horas Solar Pico (HSP)</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_Coste del Ciclo de Vida (LCC)').click()">Coste del Ciclo de Vida (LCC)</a></li>
             
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_Ahorros').click()">Ahorros</a></li>
+            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_Horas Solar Pico (HSP)').click()">Horas Solar Pico (HSP)</a></li>
             
             <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_Rentabilidad').click()">Rentabilidad</a></li>
             
@@ -559,10 +559,10 @@
     
     <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="card-img-top" src='static/img/2021-03-18_20-18.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-04-21_17-30.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Horas Solar Pico (HSP)</h5>
-          <p class="card-text">Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia.</p>
+          <h5 class="card-title">Coste del Ciclo de Vida (LCC)</h5>
+          <p class="card-text">Combinación óptima de tecnologías de energía renovable, generación convencional y almacenamiento de energía para reducir el CCV..</p>
           <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
@@ -578,10 +578,10 @@
     
     <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
-        <img class="card-img-top" src='static/img/2021-03-17_01-07.png' class="img-fluid img-thumbnail" alt="...">
+        <img class="card-img-top" src='static/img/2021-03-18_20-18.png' class="img-fluid img-thumbnail" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Ahorros</h5>
-          <p class="card-text">los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&amp;V ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes***.</p>
+          <h5 class="card-title">Horas Solar Pico (HSP)</h5>
+          <p class="card-text">Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia.</p>
           <a href="#" onclick="document.getElementById('boton_').click()" class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
@@ -1362,6 +1362,37 @@
 
 
 <!-- Button trigger modal -->
+<button hidden id="boton_Coste del Ciclo de Vida (LCC)" data-bs-target="#Coste del Ciclo de Vida (LCC)" type="button" class="btn btn-primary"
+    data-bs-toggle="modal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div id="Coste del Ciclo de Vida (LCC)" class="modal fade" data-bs-backdrop="static" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- <h1>Coste del Ciclo de Vida (LCC)</h1>
+                <h2> Combinación óptima de tecnologías de energía renovable, generación convencional y almacenamiento de energía para reducir el CCV. </h2>
+                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
+                <!-- <img class="rounded" src='static/img/2021-04-21_17-30.png' class="img-fluid img-thumbnail" alt="..."> -->
+                <iframe src="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev" frameborder="0" allowfullscreen
+                    style="width:100%;height:100%;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button hidden type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
 <button hidden id="boton_Horas Solar Pico (HSP)" data-bs-target="#Horas Solar Pico (HSP)" type="button" class="btn btn-primary"
     data-bs-toggle="modal">
     Launch demo modal
@@ -1381,37 +1412,6 @@
                 <h2> Es una unidad que mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='static/img/2021-03-18_20-18.png' class="img-fluid img-thumbnail" alt="..."> -->
-                <iframe src="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev" frameborder="0" allowfullscreen
-                    style="width:100%;height:100%;"></iframe>
-            </div>
-            <div class="modal-footer">
-                <button hidden type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button hidden id="boton_Ahorros" data-bs-target="#Ahorros" type="button" class="btn btn-primary"
-    data-bs-toggle="modal">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div id="Ahorros" class="modal fade" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- <h1>Ahorros</h1>
-                <h2> los ahorros se determinan comparando el consumo o la demanda medidos antes y después de la implementación de un programa, haciendo los ajustes adecuados para los cambios en las condiciones. La comparación del consumo o la demanda de energía antes y después debe realizarse de forma coherente, utilizando la siguiente ecuación general de M&amp;V ***Ahorros = (Energía del período de referencia - Energía del período del informe) ± Ajustes*** </h2>
-                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
-                <!-- <img class="rounded" src='static/img/2021-03-17_01-07.png' class="img-fluid img-thumbnail" alt="..."> -->
                 <iframe src="https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev" frameborder="0" allowfullscreen
                     style="width:100%;height:100%;"></iframe>
             </div>

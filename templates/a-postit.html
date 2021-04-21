@@ -15,8 +15,8 @@
         color: #000;
         background: #ffc;
         display: block;
-        height: 7em;
-        width: 5em;
+        height: 9em;
+        width: 7em;
         padding: 1em;
         -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
         -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
@@ -45,14 +45,14 @@
 
     ul.postit ul li a {
         -webkit-transform: rotate(-6deg);
-        -o-transform: rotate(-6deg);
-        -moz-transform: rotate(-6deg)
+        -o-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg)
     }
 
     ul.postit li:nth-child(1) a {
-        -o-transform: rotate(14deg);
+        -o-transform: rotate(1deg);
         -webkit-transform: rotate(14deg);
-        -moz-transform: rotate(14deg);
+        -moz-transform: rotate(1deg);
         position: absolute;
         top: 20em;
         right: 10em;
@@ -61,11 +61,11 @@
 
     ul.postit li:nth-child(2) a {
         -o-transform: rotate(-3deg);
-        -webkit-transform: rotate(-30deg);
-        -moz-transform: rotate(-30deg);
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
         position: absolute;
         top: 20em;
-        right: 15em;
+        right: 17em;
         background: rgb(248, 27, 248)
     }
 
@@ -90,13 +90,17 @@
         z-index: 5
     }
 </style>
-
+<!-- style="background-image: ;filter: brightness(100%); width: 100% !important; height: 45vh;"  -->
 <div class="container">
-    <ul class="postit">
-        <li class="postit">
-            <a href="#" href="#" onclick="document.getElementById('boton_recarga').click()">
-                <p>recarga  coches ???</p>
+    <ul class="postit" >
+        <li class="postit" >
+
+            <a href="#"  onclick="document.getElementById('boton_recarga').click()">
+                <!-- <img src="{{ url_for('static', filename='img/moves III color verde fondo blanco RGB.png') }}"> -->
+                <p> !! 70% !! Ayuda recarga  coches</p>
+                <!-- 'moves III color verde fondo blanco RGB.png' -->
             </a>
+            
         </li>
         <li class="postit">
             <a href="#" onclick="document.getElementById('boton_fv_residencial').click()">

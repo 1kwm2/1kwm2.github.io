@@ -14,6 +14,11 @@ def index():
     return render_template("index.html",data=website_data,df=df)
 
 
+@app.route('/viabilidad')
+def viabilidad():
+    website_data = yaml.load(open('_config.yaml'))
+    return render_template("i-estudio.html",data=website_data,form='fv')
+
  # https://analytics.google.com/analytics/web/?authuser=2#/report/visitors-overview/a178886246w247366348p229668719/
 if __name__ == '__main__':
     import sys
@@ -21,7 +26,5 @@ if __name__ == '__main__':
             from elsa import cli
             cli(app, base_url='https://1kwm2.com')
     else:
-        app.run(debug=True, host='0.0.0.0', port=8800)
-
-
+        app.run(debug=True, host='0.0.0.0', port=8877)
 

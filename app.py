@@ -14,10 +14,7 @@ def index():
     return render_template("index.html",data=website_data,df=df)
 
 
-@app.route('/viabilidad')
-def viabilidad():
-    website_data = yaml.load(open('_config.yaml'))
-    return render_template("i-estudio.html",data=website_data,form='fv')
+
 
  # https://analytics.google.com/analytics/web/?authuser=2#/report/visitors-overview/a178886246w247366348p229668719/
 if __name__ == '__main__':

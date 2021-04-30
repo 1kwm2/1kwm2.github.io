@@ -23,7 +23,7 @@
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.autoconsumos.items() %}
             <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">Autoconsumo.- {{
-                item.title }}</a></li>
+              item.title }}</a></li>
             {% endfor %}
             {% for _, item in data.auditorias.items() %}
             <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">Energetico.-{{
@@ -36,7 +36,7 @@
             aria-expanded="false">Proyectos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.proyectos.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
+            <li><a class="dropdown-item" href="https://11f03wo6j8.execute-api.eu-west-1.amazonaws.com/dev/_perdidas" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>

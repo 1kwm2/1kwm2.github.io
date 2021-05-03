@@ -36,7 +36,7 @@
             aria-expanded="false">Proyectos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.proyectos.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
+            <li><a class="dropdown-item" href="https://1kwm2.com/docs/" onclick="document.getElementById('boton_{{ item.id }}').click()">{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>
@@ -89,10 +89,10 @@
           <a class="nav-link" href="#">Zona Privada</a>
         </li>
       </ul>
-      <form class="d-flex">
+      <!-- <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>

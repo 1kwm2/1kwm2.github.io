@@ -2,7 +2,7 @@
 carousels:
   carousel0:
     img: static/img/zorrogallinas.png
-    title: Estudio Independiente y Gratuito
+    title: INGENIERIA CONSULTORA Independiente
     text: No proveemos equipos ni instalaciones.
     href: https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev
 # ==========================================================
@@ -295,6 +295,40 @@ estudiotecnicos:
 
 
 auditorias:
+  auditoria01:
+    img: static/img/valves-495377_640.jpg
+    title: Celula-FV-Bateria
+    text:  el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real
+    id: ae_industria
+    href: ae_industria
+  auditoria11:
+    img: static/img/valves-495377_640.jpg
+    title: Geotermica
+    text:  el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real
+    id: ae_industria
+    href: ae_industria
+  auditoria11:
+    img: static/img/valves-495377_640.jpg
+    title: Eolica
+    text:  el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real
+    id: ae_industria
+    href: ae_industria
+  
+  auditoria221:
+    img: static/img/valves-495377_640.jpg
+    title: ACS Solar
+    text:  el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real
+    id: ae_industria
+    href: ae_industria
+    
+  auditoria21:
+    img: static/img/valves-495377_640.jpg
+    title: Mejora de Eficiencia (justificante PREE)
+    text:  el potencial de ahorro de este servicio resulta altamente interesante si lo que buscas es alcanzar la eficiencia energética real
+    id: ae_industria
+    href: ae_industria
+    
+  
   auditoria0:
     img: static/img/audit-4190945_640.jpg
     title: Edificios Residencial
@@ -309,13 +343,6 @@ auditorias:
     id: ae_industria
     href: ae_industria
     
-
-
-
-
-
-
-
 
 
 # https://www.youtube.com/watch?v=gHNgR1Ly4TE&t=59s
@@ -347,7 +374,7 @@ PREEs:
     id: PREEsubsistemasdedistribución
     title: PREE subsistemas de distribución, regulación, control
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/regulacion
 
   PREE6:
     img: static/img/light-1030988_640.jpg
@@ -356,8 +383,6 @@ PREEs:
     text: Mejora de las instalaciones de iluminación.
     href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
     
-
-
 
 FEDERs:
   FEDER1:

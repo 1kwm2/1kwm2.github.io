@@ -4,14 +4,28 @@ import pandas as pd
 
 app = Flask(__name__)
 
+
+
 @app.route("/")
 def index():
     website_data = yaml.load(open('_config.yaml'))
+
+    # url = [
+    #     estudiosTecnicos,
+    #     formularios,
+    #     Documentacion
+    # ]
+
+    url = [
+        'https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/',
+        'https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/',
+        'http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/',
+    ]
     # {% for _, item in data.cards.items() %}
     # {{ item.img }}
     # {% endfor %}
     df = pd.DataFrame([1,'https://www.legistec.es/noticias/1413-ayudas-para-el-aprovechamiento-de-energias-renovables-2020'])
-    return render_template("index.html",data=website_data,df=df)
+    return render_template("index.html",data=website_data,df=df, url=url)
 
 
 

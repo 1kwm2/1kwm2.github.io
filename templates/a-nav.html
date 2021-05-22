@@ -47,7 +47,7 @@
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.estudiotecnicos.items() %}
-            <li><a class="dropdown-item" href="https://11f03wo6j8.execute-api.eu-west-1.amazonaws.com/dev/_perdidas#" >{{
+            <li><a class="dropdown-item" href="{{ url[1] }}{{ item.href }}#" >{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>
@@ -71,9 +71,9 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Ayuda</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            <li><a role="button" class="dropdown-item" href="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/">Ayuda</a>
+            <li><a role="button" class="dropdown-item" href="{{ url[2] }}">Ayuda</a>
             </li>
-            <li><a class="dropdown-item" href="https://4ch7re1re3.execute-api.eu-west-1.amazonaws.com/dev">Contacto</a>
+            <li><a class="dropdown-item" href="{{ url[1] }}">Contacto</a>
             </li>
             <li><a role="button" class="dropdown-item" href="#"
                 onclick="document.getElementById('boton_menuA').click()">Blog</a>

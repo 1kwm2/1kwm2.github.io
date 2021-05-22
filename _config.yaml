@@ -231,17 +231,32 @@ red_socials:
 
 
 estudiotecnicos:
+  estudiotecnico02:
+    img: static/img/2021-03-18_20-18.png
+    title: Ubicacion (Irradiacion, viento y rigor climatico)
+    text: HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
+    href: ubicacion
+  
+  estudiotecnico2:
+    img: static/img/2021-02-11_02-40.png
+    title: Perdidas_por_orientacion e inclinacion
+    text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
+    href: orientacion
+
+  estudiotecnico4:
+    img: static/img/2021-02-12_14-15.png
+    title: Perdidas_por_sombras
+    text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
+      banda de trayectorias del Sol a lo largo de todo el año
+    href: sombras
+
   estudiotecnico01:
     img: static/img/2021-04-21_17-30.png
     title: Coste_Ciclo_Vida
     text: Simulacion del mix óptimo de tecnologías de energía renovable y almacenamiento de energía para reducir el LCC.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
 
-  estudiotecnico02:
-    img: static/img/2021-03-18_20-18.png
-    title: Horas_Solar_Pico
-    text: HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+
 
   estudiotecnico0:
     img: static/img/2021-03-17_01-26.png
@@ -254,22 +269,13 @@ estudiotecnicos:
     title: GradosDia
     text: Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-  estudiotecnico2:
-    img: static/img/2021-02-11_02-40.png
-    title: Perdidas_por_orientacion
-    text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
-    href: https://cj5zllyfaa.execute-api.eu-west-1.amazonaws.com/dev
-  estudiotecnico3:
-    img: static/img/2021-02-11_12-38.png
-    title: Perdidas_por_inclinacion
-    text: La radiación solar incidente es maxima en el perido anual para una inclinacion igual a la latitud, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion y uso.
-    href: https://zg7lpfre3m.execute-api.eu-west-1.amazonaws.com/dev
-  estudiotecnico4:
-    img: static/img/2021-02-12_14-15.png
-    title: Perdidas_por_sombras
-    text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
-      banda de trayectorias del Sol a lo largo de todo el año
-    href: https://ph1apditp4.execute-api.eu-west-1.amazonaws.com/dev
+
+  # estudiotecnico3:
+  #   img: static/img/2021-02-11_12-38.png
+  #   title: Perdidas_por_inclinacion
+  #   text: La radiación solar incidente es maxima en el perido anual para una inclinacion igual a la latitud, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion y uso.
+  #   href: https://zg7lpfre3m.execute-api.eu-west-1.amazonaws.com/dev
+
   # estudiotecnico5:
   #   img: static/img/2021-02-12_14-15.png
   #   title: plantilla2

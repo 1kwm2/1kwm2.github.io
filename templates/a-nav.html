@@ -47,7 +47,7 @@
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.estudiotecnicos.items() %}
-            <li><a class="dropdown-item" href="{{ url[1] }}{{ item.href }}#" >{{
+            <li data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><a class="dropdown-item" href="{{ url[1] }}{{ item.href }}#" >{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>

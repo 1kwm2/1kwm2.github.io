@@ -1,13 +1,17 @@
-
 ## en resumen
+
+ok
+
 vvvv
 ggg
 gg
 
-## para correr con flask 
+## para correr con flask
+
 - vvvv=.venv
 
 de ...
+
 ```
 pk@pk:~/1kwm2.github.io$ type vvvv
 vvvv () 
@@ -21,7 +25,9 @@ vvvv ()
 pk@pk:~/1kwm2.github.io$ 
 
 ```
+
 ## generar y deplegar ej gh con 'elsa'
+
 - ggg=gh-pages
 
 de ...
@@ -52,6 +58,7 @@ pk@pk:~/1kwm2.github.io$
 ```
 
 ## push a gh
+
 gg
 
 ```
@@ -70,23 +77,18 @@ pk@pk:~/1kwm2.github.io$
 
 ```
 
-
-
 # Publications
 
-
-
 ## List of my published technological articles
+
 <br>
 <br>
 <img src="./static/2021-02-06_13-28.png" align="left" border="2" width="20%"/>
 
-[Python if __name__ == __main__ Explained with Code Examples](https://www.freecodecamp.org/news/if-name-main-python-example/) - 
+[Python if __name__ == __main__ Explained with Code Examples](https://www.freecodecamp.org/news/if-name-main-python-example/) -
 herramienta de calculo de perdidas por sombras
 
-
-
-_freeCodeCamp, Jul 03, 2020._ 
+_freeCodeCamp, Jul 03, 2020._
 
 <br>
 <br>

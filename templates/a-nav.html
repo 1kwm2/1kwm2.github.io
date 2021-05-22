@@ -47,7 +47,7 @@
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.estudiotecnicos.items() %}
-            <li data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><a class="dropdown-item" href="{{ url[1] }}{{ item.href }}#" >{{
+            <li data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><a class="dropdown-item" href="{{ estudiotecnico }}{{ item.href }}#" >{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>
@@ -71,9 +71,9 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Ayuda</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            <li><a role="button" class="dropdown-item" href="{{ url[2] }}">Ayuda</a>
+            <li><a role="button" class="dropdown-item" href="{{ documentacion }}">Ayuda</a>
             </li>
-            <li><a class="dropdown-item" href="{{ url[1] }}">Contacto</a>
+            <li><a class="dropdown-item" href="{{ formulario }}/contacto">Contacto</a>
             </li>
             <li><a role="button" class="dropdown-item" href="#"
                 onclick="document.getElementById('boton_menuA').click()">Blog</a>

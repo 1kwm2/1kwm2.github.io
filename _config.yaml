@@ -1,77 +1,4 @@
 
-carousels:
-  carousel0:
-    img: static/img/zorrogallinas.png
-    title: INGENIERIA CONSULTORA Independiente
-    text: No proveemos equipos ni instalaciones.
-    href: contacto
-# ==========================================================
-
-  PREE1:
-    img: static/img/solar-cells-191686_640.jpg
-    id: PREEEnergíasolartérmica
-    title: PREE Energía solar térmica
-    text:  Sustitución energía convencional por energía solar térmica
-    href: contacto
-    
-
-  PREE3:
-    img: static/img/biomass-440392_640.jpg
-    id: PREEbiomasa 
-    title: PREE biomasa 
-    text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
-    href: contacto
-    
-  PREE4:
-    img: static/img/heating-3212503_640.jpg
-    id: PREEsubsistemasdegeneración
-    title: PREE subsistemas de generación
-    text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
-    href: contacto
-
-  PREE5:
-    img: static/img/tablet-2471184_640.jpg
-    id: PREEsubsistemasdedistribución
-    title: PREE subsistemas de distribución, regulación, control
-    text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/devcontacto
-
-  PREE6:
-    img: static/img/light-1030988_640.jpg
-    id: PREEiluminación
-    title: PREE iluminación
-    text: Mejora de las instalaciones de iluminación.
-    href: contacto
-    
-    
-  FEDER1:
-    img: static/img/solar-4824555_640.jpg
-    id: FEDERsolarfotovoltaica
-    title: FEDER solar fotovoltaica
-    text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
-    href: contacto
-    
-  FEDER2:
-    img: static/img/solar-panel-918492_640.jpg
-    id: FEDERsectorindustrial
-    title: FEDER sector industrial
-    text: PYME y gran empresa sector industrial 
-    href: contacto
-
-  FEDER3:
-    img: static/img/energy-3125125_640.jpg
-    id: FEDERenergiatermica
-    title: FEDER energía térmica
-    text: Instalaciones de producción de energía térmica con fuentes de energía renovable
-    href: contacto
-    
-  FEDER4:
-    img: static/img/car-3117778_640.jpg
-    id: FEDERVEMOVALT
-    title: FEDER VE MOVALT
-    text: Implantación de recarga de VE MOVALT infraestructura
-    href: contacto
-
 
     
 
@@ -223,7 +150,7 @@ estudiotecnicos:
     img: static/img/2021-02-11_02-40.png
     title: Perdidas_por_orientacion e inclinacion
     text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
-    href: orientacion
+    href: _Estudio/Perdidas/Orientacion_Inclinacion/
     id: et_perdidas_inclinacion
 
   estudiotecnico4:
@@ -231,31 +158,31 @@ estudiotecnicos:
     title: Perdidas_por_sombras
     text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
       banda de trayectorias del Sol a lo largo de todo el año
-    href: sombras
+    href: _Estudio/Perdidas/Sombras
     id: et_sombras
 
-  estudiotecnico01:
-    img: static/img/2021-04-21_17-30.png
-    title: Coste_Ciclo_Vida
-    text: Simulacion del mix óptimo de tecnologías de energía renovable y almacenamiento de energía para reducir el LCC.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-    id: p_fotovoltaico
+  # estudiotecnico01:
+  #   img: static/img/2021-04-21_17-30.png
+  #   title: Coste_Ciclo_Vida
+  #   text: Simulacion del mix óptimo de tecnologías de energía renovable y almacenamiento de energía para reducir el LCC.
+  #   href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  #   id: p_fotovoltaico
 
 
 
-  estudiotecnico0:
-    img: static/img/2021-03-17_01-26.png
-    title: Rentabilidad
-    text: Ejemplo FV (redondeando en Esp.). Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kW, que a 4 kWh/d y  0.15 E/kwh rentan 300 E/a con lo que seria cuestionable una inversion de mas de 1500 Euros. (Si es usted muy 'verde' hay en el mercado ofertas a 4000 E)
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-    id: p_fotovoltaico
+  # estudiotecnico0:
+  #   img: static/img/2021-03-17_01-26.png
+  #   title: Rentabilidad
+  #   text: Ejemplo FV (redondeando en Esp.). Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kW, que a 4 kWh/d y  0.15 E/kwh rentan 300 E/a con lo que seria cuestionable una inversion de mas de 1500 Euros. (Si es usted muy 'verde' hay en el mercado ofertas a 4000 E)
+  #   href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  #   id: p_fotovoltaico
 
-  estudiotecnico1:
-    img: static/img/2021-02-11_00-27.png
-    title: GradosDia
-    text: Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana.
-    href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
-    id: p_fotovoltaico
+  # estudiotecnico1:
+  #   img: static/img/2021-02-11_00-27.png
+  #   title: GradosDia
+  #   text: Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana.
+  #   href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+  #   id: p_fotovoltaico
 
   # estudiotecnico3:
   #   img: static/img/2021-02-11_12-38.png

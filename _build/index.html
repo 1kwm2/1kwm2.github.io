@@ -279,15 +279,6 @@
             <li><a class="dropdown-item" href="#"
                 onclick="document.getElementById('boton_estudiotecnico_et_sombras').click()">Perdidas_por_sombras</a></li>
             
-            <li><a class="dropdown-item" href="#"
-                onclick="document.getElementById('boton_estudiotecnico_p_fotovoltaico').click()">Coste_Ciclo_Vida</a></li>
-            
-            <li><a class="dropdown-item" href="#"
-                onclick="document.getElementById('boton_estudiotecnico_p_fotovoltaico').click()">Rentabilidad</a></li>
-            
-            <li><a class="dropdown-item" href="#"
-                onclick="document.getElementById('boton_estudiotecnico_p_fotovoltaico').click()">GradosDia</a></li>
-            
           </ul>
         </li>
 
@@ -434,11 +425,13 @@
     <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
         <img class="card-img-top" src='static/img/2021-03-18_20-18.png' class="img-fluid img-thumbnail" alt="...">
-        <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body">
+        <!-- <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body"> -->
+        <div class="card-body">
           <h5 class="card-title">Ubicacion (Irradiacion, viento y rigor climatico)</h5>
           <p class="card-text">HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia.</p>
           <!-- <a href="#" onclick="document.getElementById('boton_et_ubicacion').click()" class="stretched-link"></a> -->
-          <a href="https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/_Estudio/ubicacion/"  class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_estudiotecnico_et_ubicacion').click()"
+            class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
             <!-- <div class="btn-group">
@@ -454,11 +447,13 @@
     <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
         <img class="card-img-top" src='static/img/2021-02-11_02-40.png' class="img-fluid img-thumbnail" alt="...">
-        <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body">
+        <!-- <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body"> -->
+        <div class="card-body">
           <h5 class="card-title">Perdidas_por_orientacion e inclinacion</h5>
           <p class="card-text">La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo..</p>
           <!-- <a href="#" onclick="document.getElementById('boton_et_perdidas_inclinacion').click()" class="stretched-link"></a> -->
-          <a href="https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion"  class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_estudiotecnico_et_perdidas_inclinacion').click()"
+            class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
             <!-- <div class="btn-group">
@@ -474,71 +469,13 @@
     <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
         <img class="card-img-top" src='static/img/2021-02-12_14-15.png' class="img-fluid img-thumbnail" alt="...">
-        <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body">
+        <!-- <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body"> -->
+        <div class="card-body">
           <h5 class="card-title">Perdidas_por_sombras</h5>
           <p class="card-text">Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la banda de trayectorias del Sol a lo largo de todo el año.</p>
           <!-- <a href="#" onclick="document.getElementById('boton_et_sombras').click()" class="stretched-link"></a> -->
-          <a href="https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras"  class="stretched-link"></a>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <!-- <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div> -->
-            <small class="text-muted">1 mins</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
-      <div class="card bg-light">
-        <img class="card-img-top" src='static/img/2021-04-21_17-30.png' class="img-fluid img-thumbnail" alt="...">
-        <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body">
-          <h5 class="card-title">Coste_Ciclo_Vida</h5>
-          <p class="card-text">Simulacion del mix óptimo de tecnologías de energía renovable y almacenamiento de energía para reducir el LCC..</p>
-          <!-- <a href="#" onclick="document.getElementById('boton_p_fotovoltaico').click()" class="stretched-link"></a> -->
-          <a href="https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev"  class="stretched-link"></a>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <!-- <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div> -->
-            <small class="text-muted">1 mins</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
-      <div class="card bg-light">
-        <img class="card-img-top" src='static/img/2021-03-17_01-26.png' class="img-fluid img-thumbnail" alt="...">
-        <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body">
-          <h5 class="card-title">Rentabilidad</h5>
-          <p class="card-text">Ejemplo FV (redondeando en Esp.). Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kW, que a 4 kWh/d y  0.15 E/kwh rentan 300 E/a con lo que seria cuestionable una inversion de mas de 1500 Euros. (Si es usted muy &#39;verde&#39; hay en el mercado ofertas a 4000 E).</p>
-          <!-- <a href="#" onclick="document.getElementById('boton_p_fotovoltaico').click()" class="stretched-link"></a> -->
-          <a href="https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev"  class="stretched-link"></a>
-
-          <div class="d-flex justify-content-between align-items-center">
-            <!-- <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div> -->
-            <small class="text-muted">1 mins</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
-      <div class="card bg-light">
-        <img class="card-img-top" src='static/img/2021-02-11_00-27.png' class="img-fluid img-thumbnail" alt="...">
-        <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body">
-          <h5 class="card-title">GradosDia</h5>
-          <p class="card-text">Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana..</p>
-          <!-- <a href="#" onclick="document.getElementById('boton_p_fotovoltaico').click()" class="stretched-link"></a> -->
-          <a href="https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev"  class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_estudiotecnico_et_sombras').click()"
+            class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
             <!-- <div class="btn-group">
@@ -1669,7 +1606,7 @@
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='static/img/2021-02-11_02-40.png' class="img-fluid img-thumbnail" alt="..."> -->
 
-                <iframe src="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/orientacion" frameborder="0"
+                <iframe src="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/_Estudio/Perdidas/Orientacion_Inclinacion/" frameborder="0"
                 style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
              </div>
             <div class="modal-footer">
@@ -1701,103 +1638,7 @@
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='static/img/2021-02-12_14-15.png' class="img-fluid img-thumbnail" alt="..."> -->
 
-                <iframe src="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/sombras" frameborder="0"
-                style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-             </div>
-            <div class="modal-footer">
-                <button hidden type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_p_fotovoltaico" data-bs-target="#p_fotovoltaico" type="button" class="btn btn-primary"
-    data-bs-toggle="modal">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div id="p_fotovoltaico" class="modal fade" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-04-21_17-30.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                <!-- <h1>Coste_Ciclo_Vida</h1>
-                <h2> Simulacion del mix óptimo de tecnologías de energía renovable y almacenamiento de energía para reducir el LCC. </h2>
-                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
-                <!-- <img class="rounded" src='static/img/2021-04-21_17-30.png' class="img-fluid img-thumbnail" alt="..."> -->
-
-                <iframe src="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" frameborder="0"
-                style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-             </div>
-            <div class="modal-footer">
-                <button hidden type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_p_fotovoltaico" data-bs-target="#p_fotovoltaico" type="button" class="btn btn-primary"
-    data-bs-toggle="modal">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div id="p_fotovoltaico" class="modal fade" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-03-17_01-26.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                <!-- <h1>Rentabilidad</h1>
-                <h2> Ejemplo FV (redondeando en Esp.). Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kW, que a 4 kWh/d y  0.15 E/kwh rentan 300 E/a con lo que seria cuestionable una inversion de mas de 1500 Euros. (Si es usted muy &#39;verde&#39; hay en el mercado ofertas a 4000 E) </h2>
-                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
-                <!-- <img class="rounded" src='static/img/2021-03-17_01-26.png' class="img-fluid img-thumbnail" alt="..."> -->
-
-                <iframe src="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" frameborder="0"
-                style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-             </div>
-            <div class="modal-footer">
-                <button hidden type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_p_fotovoltaico" data-bs-target="#p_fotovoltaico" type="button" class="btn btn-primary"
-    data-bs-toggle="modal">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div id="p_fotovoltaico" class="modal fade" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-02-11_00-27.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                <!-- <h1>GradosDia</h1>
-                <h2> Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana. </h2>
-                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
-                <!-- <img class="rounded" src='static/img/2021-02-11_00-27.png' class="img-fluid img-thumbnail" alt="..."> -->
-
-                <iframe src="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev" frameborder="0"
+                <iframe src="http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/_Estudio/Perdidas/Sombras" frameborder="0"
                 style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
              </div>
             <div class="modal-footer">

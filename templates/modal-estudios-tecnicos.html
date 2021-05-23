@@ -1,14 +1,14 @@
-{% for _, item in data.PREEs.items() %}
+{% for _, item in data.estudiotecnicos.items() %}
 
 <!-- Button trigger modal -->
-<button hidden id="boton_PREEs_{{ item.id }}" data-bs-target="#{{ item.id }}" type="button" class="btn btn-primary"
+<button hidden id="boton_estudiotecnico_{{ item.id }}" data-bs-target="#{{ item.id }}" type="button" class="btn btn-primary"
     data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="{{ item.id }}" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
+<div id="{{ item.id }}" class="modal fade" data-bs-backdrop="static" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -16,14 +16,14 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image text-light " style="background-image: url('{{ item.img }}');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                <h1>{{ item.title }}</h1>
+                <!-- <h1>{{ item.title }}</h1>
                 <h2> {{ item.text }} </h2>
-                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
+                <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='{{ item.img }}' class="img-fluid img-thumbnail" alt="..."> -->
 
-                <iframe src="{{formulario}}{{item.href}}" frameborder="0"
+                <iframe src="{{notebook}}{{item.href}}" frameborder="0"
                 style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-            </div>
+             </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
             </div>

@@ -28,10 +28,9 @@ def index():
     return render_template("index.html",
     data=website_data,
     df=df, 
-       estudiotecnico='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/',
+    estudiotecnico='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/',
     formulario='https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev',
-    documentacion='http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/'
-
+    notebook='http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/'
     )
 
 

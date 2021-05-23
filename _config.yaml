@@ -4,7 +4,7 @@ carousels:
     img: static/img/zorrogallinas.png
     title: INGENIERIA CONSULTORA Independiente
     text: No proveemos equipos ni instalaciones.
-    href: https://r2uoahox2j.execute-api.eu-west-1.amazonaws.com/dev
+    href: contacto
 # ==========================================================
 
   PREE1:
@@ -12,7 +12,7 @@ carousels:
     id: PREEEnergíasolartérmica
     title: PREE Energía solar térmica
     text:  Sustitución energía convencional por energía solar térmica
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
     
 
   PREE3:
@@ -20,14 +20,14 @@ carousels:
     id: PREEbiomasa 
     title: PREE biomasa 
     text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
     
   PREE4:
     img: static/img/heating-3212503_640.jpg
     id: PREEsubsistemasdegeneración
     title: PREE subsistemas de generación
     text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
 
   PREE5:
     img: static/img/tablet-2471184_640.jpg
@@ -41,7 +41,7 @@ carousels:
     id: PREEiluminación
     title: PREE iluminación
     text: Mejora de las instalaciones de iluminación.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
     
     
   FEDER1:
@@ -49,28 +49,28 @@ carousels:
     id: FEDERsolarfotovoltaica
     title: FEDER solar fotovoltaica
     text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
     
   FEDER2:
     img: static/img/solar-panel-918492_640.jpg
     id: FEDERsectorindustrial
     title: FEDER sector industrial
     text: PYME y gran empresa sector industrial 
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
 
   FEDER3:
     img: static/img/energy-3125125_640.jpg
     id: FEDERenergiatermica
     title: FEDER energía térmica
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
     
   FEDER4:
     img: static/img/car-3117778_640.jpg
     id: FEDERVEMOVALT
     title: FEDER VE MOVALT
     text: Implantación de recarga de VE MOVALT infraestructura
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: contacto
 
 
     
@@ -109,14 +109,14 @@ proyectos:
     title: fotovoltaico
     text: Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. 
     id: p_fotovoltaico
-    href: 'FV aislada'
+    href: '_Proyecto/FV_aislada'
 
   proyecto0:
     img: static/img/irrigation-588941_640.jpg
-    title: aerogenerador
+    title: FV conectada
     text: El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento..
     id: fv_aerogenerador
-    href: 'FV en red'
+    href: '_Proyecto/FV_conectada'
     
 
 
@@ -223,13 +223,15 @@ estudiotecnicos:
     img: static/img/2021-03-18_20-18.png
     title: Ubicacion (Irradiacion, viento y rigor climatico)
     text: HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
-    href: ubicacion
+    href: _Estudio/ubicacion/
+    id: et_ubicacion
   
   estudiotecnico2:
     img: static/img/2021-02-11_02-40.png
     title: Perdidas_por_orientacion e inclinacion
     text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
     href: orientacion
+    id: et_perdidas_inclinacion
 
   estudiotecnico4:
     img: static/img/2021-02-12_14-15.png
@@ -237,12 +239,14 @@ estudiotecnicos:
     text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
       banda de trayectorias del Sol a lo largo de todo el año
     href: sombras
+    id: et_sombras
 
   estudiotecnico01:
     img: static/img/2021-04-21_17-30.png
     title: Coste_Ciclo_Vida
     text: Simulacion del mix óptimo de tecnologías de energía renovable y almacenamiento de energía para reducir el LCC.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    id: p_fotovoltaico
 
 
 
@@ -251,12 +255,14 @@ estudiotecnicos:
     title: Rentabilidad
     text: Ejemplo FV (redondeando en Esp.). Si del sol se recibe 1 kW/m2, en un tejado de 10 m2, y con instalacion del 15 % de rendimiento, se tienen 1.5 kW, que a 4 kWh/d y  0.15 E/kwh rentan 300 E/a con lo que seria cuestionable una inversion de mas de 1500 Euros. (Si es usted muy 'verde' hay en el mercado ofertas a 4000 E)
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    id: p_fotovoltaico
 
   estudiotecnico1:
     img: static/img/2021-02-11_00-27.png
     title: GradosDia
     text: Este parámetro proporciona un índice del rigor climático de una localidad o una zona. Dadas las temperaturas maxima, media y minima de la estacion mas cercana.
     href: https://i4mhrstsle.execute-api.eu-west-1.amazonaws.com/dev
+    id: p_fotovoltaico
 
   # estudiotecnico3:
   #   img: static/img/2021-02-11_12-38.png
@@ -346,7 +352,7 @@ PREEs:
     id: PREEEnergíasolartérmica
     title: PREE Energía solar térmica
     text:  Sustitución energía convencional por energía solar térmica
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
     
 
   PREE3:
@@ -354,28 +360,28 @@ PREEs:
     id: PREEbiomasa 
     title: PREE biomasa 
     text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
     
   PREE4:
     img: static/img/heating-3212503_640.jpg
     id: PREEsubsistemasdegeneración
     title: PREE subsistemas de generación
     text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
 
   PREE5:
     img: static/img/tablet-2471184_640.jpg
     id: PREEsubsistemasdedistribución
     title: PREE subsistemas de distribución, regulación, control
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/regulacion
+    href: /contacto
 
   PREE6:
     img: static/img/light-1030988_640.jpg
     id: PREEiluminación
     title: PREE iluminación
     text: Mejora de las instalaciones de iluminación.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
     
 
 FEDERs:
@@ -384,28 +390,28 @@ FEDERs:
     id: FEDERsolarfotovoltaica
     title: FEDER solar fotovoltaica
     text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
     
   FEDER2:
     img: static/img/solar-panel-918492_640.jpg
     id: FEDERsectorindustrial
     title: FEDER sector industrial
     text: PYME y gran empresa sector industrial 
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
 
   FEDER3:
     img: static/img/energy-3125125_640.jpg
     id: FEDERenergiatermica
     title: FEDER energía térmica
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
     
   FEDER4:
     img: static/img/car-3117778_640.jpg
     id: FEDERVEMOVALT
     title: FEDER VE MOVALT
     text: Implantación de recarga de VE MOVALT infraestructura
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: /contacto
 
 
     

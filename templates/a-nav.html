@@ -3,7 +3,10 @@
 
 
 <style>
-  .dropdown-hover-all .dropdown-menu, .dropdown-hover > .dropdown-menu.dropend { margin-left:-1px !important }
+  .dropdown-hover-all .dropdown-menu,
+  .dropdown-hover>.dropdown-menu.dropend {
+    margin-left: -1px !important
+  }
 </style>
 
 
@@ -17,51 +20,60 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <!-- <li class="nav-item dropup"> -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
-            aria-expanded="false">Asesoria</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            {% for _, item in data.autoconsumos.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">Autoconsumo.- {{
-              item.title }}</a></li>
-            {% endfor %}
-            {% for _, item in data.auditorias.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">Energetico.-{{
-                item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
-            aria-expanded="false">Proyectos</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            {% for _, item in data.proyectos.items() %}
-            <li><a class="dropdown-item" href="{{formulario}}/_Proyecto/{{item.href}}" >{{
-                item.title }}</a></li>
-            {% endfor %}
-          </ul>
-
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Estudios tecnicos</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.estudiotecnicos.items() %}
-            <li data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><a class="dropdown-item" href="{{ estudiotecnico }}{{ item.href }}#" >{{
+            <li><a class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_estudiotecnico_{{ item.id }}').click()">{{
                 item.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Proyectos</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            {% for _, item in data.proyectos.items() %}
+            <li><a class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_proyecto{{ item.id }}').click()">{{
+                item.title }}</a></li>
+            {% endfor %}
+          </ul>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+            aria-expanded="false">Asesoria</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            {% for _, item in data.autoconsumos.items() %}
+            <li><a class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_autoconsumos_{{ item.id }}').click()">Autoconsumo.- {{
+                item.title }}</a></li>
+            {% endfor %}
+            {% for _, item in data.auditorias.items() %}
+            <li><a class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_auditorias_{{ item.id }}').click()">Auditoria.-{{
+                item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Subvenciones</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             {% for _, item in data.PREEs.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">PREE.-{{
+            <li><a class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_PREEs_{{ item.id }}').click()">PREE.-{{
                 item.text }}</a></li>
             {% endfor %}
             {% for _, item in data.FEDERs.items() %}
-            <li><a class="dropdown-item" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()">FEDER.-{{
+            <li><a class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_FEDERs_{{ item.id }}').click()">FEDER.-{{
                 item.text }}</a></li>
             {% endfor %}
           </ul>
@@ -71,7 +83,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
             aria-expanded="false">Ayuda</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-            <li><a role="button" class="dropdown-item" href="{{ documentacion }}">Ayuda</a>
+            <li><a role="button" class="dropdown-item" href="{{ notebook }}">Ayuda</a>
             </li>
             <li><a class="dropdown-item" href="{{ formulario }}/contacto">Contacto</a>
             </li>
@@ -95,4 +107,3 @@
     </div>
   </div>
 </nav>
-

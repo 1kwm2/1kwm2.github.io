@@ -34,7 +34,7 @@ carousels:
     id: PREEsubsistemasdedistribución
     title: PREE subsistemas de distribución, regulación, control
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
-    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/dev/contacto
+    href: https://iydbeoo0t0.execute-api.eu-west-1.amazonaws.com/devcontacto
 
   PREE6:
     img: static/img/light-1030988_640.jpg
@@ -352,7 +352,7 @@ PREEs:
     id: PREEEnergíasolartérmica
     title: PREE Energía solar térmica
     text:  Sustitución energía convencional por energía solar térmica
-    href: /contacto
+    href: contacto
     
 
   PREE3:
@@ -360,28 +360,28 @@ PREEs:
     id: PREEbiomasa 
     title: PREE biomasa 
     text: Sustitución de energía convencional por biomasa en las instalaciones térmicas.
-    href: /contacto
+    href: contacto
     
   PREE4:
     img: static/img/heating-3212503_640.jpg
     id: PREEsubsistemasdegeneración
     title: PREE subsistemas de generación
     text: Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor.
-    href: /contacto
+    href: contacto
 
   PREE5:
     img: static/img/tablet-2471184_640.jpg
     id: PREEsubsistemasdedistribución
     title: PREE subsistemas de distribución, regulación, control
     text: Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas.
-    href: /contacto
+    href: contacto
 
   PREE6:
     img: static/img/light-1030988_640.jpg
     id: PREEiluminación
     title: PREE iluminación
     text: Mejora de las instalaciones de iluminación.
-    href: /contacto
+    href: contacto
     
 
 FEDERs:
@@ -390,28 +390,28 @@ FEDERs:
     id: FEDERsolarfotovoltaica
     title: FEDER solar fotovoltaica
     text:  Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica 
-    href: /contacto
+    href: contacto
     
   FEDER2:
     img: static/img/solar-panel-918492_640.jpg
     id: FEDERsectorindustrial
     title: FEDER sector industrial
     text: PYME y gran empresa sector industrial 
-    href: /contacto
+    href: contacto
 
   FEDER3:
     img: static/img/energy-3125125_640.jpg
     id: FEDERenergiatermica
     title: FEDER energía térmica
     text: Instalaciones de producción de energía térmica con fuentes de energía renovable
-    href: /contacto
+    href: contacto
     
   FEDER4:
     img: static/img/car-3117778_640.jpg
     id: FEDERVEMOVALT
     title: FEDER VE MOVALT
     text: Implantación de recarga de VE MOVALT infraestructura
-    href: /contacto
+    href: contacto
 
 
     

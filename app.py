@@ -31,7 +31,7 @@ def index():
     estudiotecnico='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/',
     formulario='https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev',
     # notebook='http://docs1kwm2.s3-website-eu-west-1.amazonaws.com/',
-    notebook = 'https://1kwm2.com/docs2/'
+    notebook = 'https://1kwm2.com/site/'
     )
 
 

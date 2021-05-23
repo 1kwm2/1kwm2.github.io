@@ -19,11 +19,13 @@
     <div class="col-sm-6 col-lg-4 mb-4 d-flex">
       <div class="card bg-light">
         <img class="card-img-top" src='{{ item.img }}' class="img-fluid img-thumbnail" alt="...">
-        <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body">
+        <!-- <div data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="card-body"> -->
+        <div class="card-body">
           <h5 class="card-title">{{ item.title }}</h5>
           <p class="card-text">{{ item.text }}.</p>
           <!-- <a href="#" onclick="document.getElementById('boton_{{ item.id }}').click()" class="stretched-link"></a> -->
-          <a href="{{estudiotecnico}}{{item.href}}"  class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_estudiotecnico_{{ item.id }}').click()"
+            class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
             <!-- <div class="btn-group">

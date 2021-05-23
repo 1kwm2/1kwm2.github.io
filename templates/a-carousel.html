@@ -20,7 +20,7 @@
 
             </div>
 
-            {% for _, item in data.carousels.items() %}
+            {% for _, item in data.autoconsumos.items() %}
 
             <div class="carousel-item">
                 <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;" src='{{ item.img }}'
@@ -30,7 +30,22 @@
                         <h1>{{ item.title }}</h1>
                         <p>{{ item.text }}</p>
                         <p></p>
-                        <p><a class="btn btn-lg btn-primary" href="#" onclick="document.getElementById('boton_{{ item.id }}').click()" role="button">Ir</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#" onclick="document.getElementById('boton_autoconsumos_{{ item.id }}').click()" role="button">Ir</a></p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% for _, item in data.auditorias.items() %}
+
+            <div class="carousel-item">
+                <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;" src='{{ item.img }}'
+                    alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>{{ item.title }}</h1>
+                        <p>{{ item.text }}</p>
+                        <p></p>
+                        <p><a class="btn btn-lg btn-primary" href="#" onclick="document.getElementById('boton_auditorias_{{ item.id }}').click()" role="button">Ir</a></p>
                     </div>
                 </div>
             </div>

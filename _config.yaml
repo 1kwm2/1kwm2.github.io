@@ -144,14 +144,14 @@ estudiotecnicos:
     title: Ubicacion (Irradiacion, viento y rigor climatico)
     text: HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia
     href: _Estudio/ubicacion/
-    id: et_ubicacion
+    id: ubicacion
   
   estudiotecnico2:
     img: static/img/2021-02-11_02-40.png
     title: Perdidas_por_orientacion e inclinacion
     text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
     href: _Estudio/Perdidas/Orientacion_Inclinacion/
-    id: et_perdidas_inclinacion
+    id: orientacion
 
   estudiotecnico4:
     img: static/img/2021-02-12_14-15.png
@@ -159,7 +159,7 @@ estudiotecnicos:
     text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
       banda de trayectorias del Sol a lo largo de todo el año
     href: _Estudio/Perdidas/Sombras
-    id: et_sombras
+    id: sombras
 
   # estudiotecnico01:
   #   img: static/img/2021-04-21_17-30.png

@@ -13,7 +13,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button type="button" onclick="location.href='{{estudiotecnico}}'" class="btn btn-success" >simulacion</button>
+                <button type="button" onclick="location.href='{{estudiotecnico}}{{ item.id }}'" class="btn btn-success" >simulacion</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image text-light " style="background-image: url('{{ item.img }}');filter: brightness(100%); width: 100% !important; height: 45vh;" >

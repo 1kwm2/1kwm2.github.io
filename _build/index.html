@@ -271,13 +271,13 @@
           <ul class="dropdown-menu" aria-labelledby="dropdown10">
             
             <li><a class="dropdown-item" href="#"
-                onclick="document.getElementById('boton_estudiotecnico_et_ubicacion').click()">Ubicacion (Irradiacion, viento y rigor climatico)</a></li>
+                onclick="document.getElementById('boton_estudiotecnico_ubicacion').click()">Ubicacion (Irradiacion, viento y rigor climatico)</a></li>
             
             <li><a class="dropdown-item" href="#"
-                onclick="document.getElementById('boton_estudiotecnico_et_perdidas_inclinacion').click()">Perdidas_por_orientacion e inclinacion</a></li>
+                onclick="document.getElementById('boton_estudiotecnico_orientacion').click()">Perdidas_por_orientacion e inclinacion</a></li>
             
             <li><a class="dropdown-item" href="#"
-                onclick="document.getElementById('boton_estudiotecnico_et_sombras').click()">Perdidas_por_sombras</a></li>
+                onclick="document.getElementById('boton_estudiotecnico_sombras').click()">Perdidas_por_sombras</a></li>
             
           </ul>
         </li>
@@ -429,8 +429,8 @@
         <div class="card-body">
           <h5 class="card-title">Ubicacion (Irradiacion, viento y rigor climatico)</h5>
           <p class="card-text">HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia.</p>
-          <!-- <a href="#" onclick="document.getElementById('boton_et_ubicacion').click()" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_estudiotecnico_et_ubicacion').click()"
+          <!-- <a href="#" onclick="document.getElementById('boton_ubicacion').click()" class="stretched-link"></a> -->
+          <a href="#" onclick="document.getElementById('boton_estudiotecnico_ubicacion').click()"
             class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
@@ -451,8 +451,8 @@
         <div class="card-body">
           <h5 class="card-title">Perdidas_por_orientacion e inclinacion</h5>
           <p class="card-text">La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo..</p>
-          <!-- <a href="#" onclick="document.getElementById('boton_et_perdidas_inclinacion').click()" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_estudiotecnico_et_perdidas_inclinacion').click()"
+          <!-- <a href="#" onclick="document.getElementById('boton_orientacion').click()" class="stretched-link"></a> -->
+          <a href="#" onclick="document.getElementById('boton_estudiotecnico_orientacion').click()"
             class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
@@ -473,8 +473,8 @@
         <div class="card-body">
           <h5 class="card-title">Perdidas_por_sombras</h5>
           <p class="card-text">Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la banda de trayectorias del Sol a lo largo de todo el año.</p>
-          <!-- <a href="#" onclick="document.getElementById('boton_et_sombras').click()" class="stretched-link"></a> -->
-          <a href="#" onclick="document.getElementById('boton_estudiotecnico_et_sombras').click()"
+          <!-- <a href="#" onclick="document.getElementById('boton_sombras').click()" class="stretched-link"></a> -->
+          <a href="#" onclick="document.getElementById('boton_estudiotecnico_sombras').click()"
             class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
@@ -1554,18 +1554,19 @@
 
 
 <!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_et_ubicacion" data-bs-target="#et_ubicacion" type="button" class="btn btn-primary"
+<button hidden id="boton_estudiotecnico_ubicacion" data-bs-target="#ubicacion" type="button" class="btn btn-primary"
     data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="et_ubicacion" class="modal fade" data-bs-backdrop="static" tabindex="-1"
+<div id="ubicacion" class="modal fade" data-bs-backdrop="static" tabindex="-1"
     aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/ubicacion'" class="btn btn-success" >simulacion</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-03-18_20-18.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
@@ -1586,18 +1587,19 @@
 
 
 <!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_et_perdidas_inclinacion" data-bs-target="#et_perdidas_inclinacion" type="button" class="btn btn-primary"
+<button hidden id="boton_estudiotecnico_orientacion" data-bs-target="#orientacion" type="button" class="btn btn-primary"
     data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="et_perdidas_inclinacion" class="modal fade" data-bs-backdrop="static" tabindex="-1"
+<div id="orientacion" class="modal fade" data-bs-backdrop="static" tabindex="-1"
     aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion'" class="btn btn-success" >simulacion</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-02-11_02-40.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
@@ -1618,18 +1620,19 @@
 
 
 <!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_et_sombras" data-bs-target="#et_sombras" type="button" class="btn btn-primary"
+<button hidden id="boton_estudiotecnico_sombras" data-bs-target="#sombras" type="button" class="btn btn-primary"
     data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="et_sombras" class="modal fade" data-bs-backdrop="static" tabindex="-1"
+<div id="sombras" class="modal fade" data-bs-backdrop="static" tabindex="-1"
     aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras'" class="btn btn-success" >simulacion</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-02-12_14-15.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >

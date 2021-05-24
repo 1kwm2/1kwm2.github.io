@@ -1555,162 +1555,189 @@
 
 
 <!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_ubicacion" data-bs-target="#ubicacion" type="button" class="btn btn-primary"
-    data-bs-toggle="modal">
+<button hidden id="boton_estudiotecnico_ubicacion" data-bs-target="#ubicacion" type="button"
+    class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="ubicacion" class="modal fade" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="ubicacion" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button" onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/ubicacion'" class="btn btn-success" >simulacion</button>
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle22" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Nueva simulacion</button>
+                <!-- <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button"
+                    onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/ubicacion'"
+                    class="btn btn-success">simulacion</button> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-03-18_20-18.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image "
+            style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                <!-- <div class="modal-body bg-image"> -->
                 <!-- <h1>Ubicacion (Irradiacion, viento y rigor climatico)</h1>
                 <h2> HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='static/img/2021-03-18_20-18.png' class="img-fluid img-thumbnail" alt="..."> -->
-
+                <h1>un momento por favor</h1>
                 <iframe src="https://1kwm2.com/docs2/_Estudio/ubicacion/" frameborder="0"
-                style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-             </div>
+                    style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+            </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle22" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
             </div>
         </div>
     </div>
 </div>
 
 
-<div class="modal fade" id="exampleModalToggle22" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+<div class="modal fade" id="exampleModalToggle22" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
     <div class="modal-dialog  modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn btn-primary" data-bs-target="#ubicacion" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body bg-image "
+                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/ubicacion' frameborder="0"
+                    style="position:fixed; top:40px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+            </div>
+            <div class="modal-footer">
+
+            </div>
         </div>
-        <div class="modal-body">
-            <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/ubicacion' frameborder="0"
-            style="position:fixed; top:40px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#ubicacion"data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-        </div>
-      </div>
     </div>
 </div>
-<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+<a class="btn hidden btn-primary" data-bs-toggle="modal" href="#ubicacion" role="button">Open first modal</a>
 
 
 <!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_orientacion" data-bs-target="#orientacion" type="button" class="btn btn-primary"
-    data-bs-toggle="modal">
+<button hidden id="boton_estudiotecnico_orientacion" data-bs-target="#orientacion" type="button"
+    class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="orientacion" class="modal fade" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="orientacion" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button" onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion'" class="btn btn-success" >simulacion</button>
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle22" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Nueva simulacion</button>
+                <!-- <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button"
+                    onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion'"
+                    class="btn btn-success">simulacion</button> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-02-11_02-40.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image "
+            style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                <!-- <div class="modal-body bg-image"> -->
                 <!-- <h1>Perdidas_por_orientacion e inclinacion</h1>
                 <h2> La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo. </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='static/img/2021-02-11_02-40.png' class="img-fluid img-thumbnail" alt="..."> -->
-
+                <h1>un momento por favor</h1>
                 <iframe src="https://1kwm2.com/docs2/_Estudio/Perdidas/orientacion/" frameborder="0"
-                style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-             </div>
+                    style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+            </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle22" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
             </div>
         </div>
     </div>
 </div>
 
 
-<div class="modal fade" id="exampleModalToggle22" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+<div class="modal fade" id="exampleModalToggle22" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
     <div class="modal-dialog  modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn btn-primary" data-bs-target="#orientacion" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body bg-image "
+                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion' frameborder="0"
+                    style="position:fixed; top:40px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+            </div>
+            <div class="modal-footer">
+
+            </div>
         </div>
-        <div class="modal-body">
-            <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion' frameborder="0"
-            style="position:fixed; top:40px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#orientacion"data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-        </div>
-      </div>
     </div>
 </div>
-<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+<a class="btn hidden btn-primary" data-bs-toggle="modal" href="#orientacion" role="button">Open first modal</a>
 
 
 <!-- Button trigger modal -->
-<button hidden id="boton_estudiotecnico_sombras" data-bs-target="#sombras" type="button" class="btn btn-primary"
-    data-bs-toggle="modal">
+<button hidden id="boton_estudiotecnico_sombras" data-bs-target="#sombras" type="button"
+    class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
 </button>
 
 <!-- Modal -->
-<div id="sombras" class="modal fade" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="sombras" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
-                <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button" onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras'" class="btn btn-success" >simulacion</button>
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle22" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Nueva simulacion</button>
+                <!-- <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button"
+                    onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras'"
+                    class="btn btn-success">simulacion</button> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/2021-02-12_14-15.png');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image "
+            style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                <!-- <div class="modal-body bg-image"> -->
                 <!-- <h1>Perdidas_por_sombras</h1>
                 <h2> Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la banda de trayectorias del Sol a lo largo de todo el año </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p> -->
                 <!-- <img class="rounded" src='static/img/2021-02-12_14-15.png' class="img-fluid img-thumbnail" alt="..."> -->
-
+                <h1>un momento por favor</h1>
                 <iframe src="https://1kwm2.com/docs2/_Estudio/Perdidas/sombras" frameborder="0"
-                style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-             </div>
+                    style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+            </div>
             <div class="modal-footer">
                 <button hidden type="button" class="btn btn-primary">Save changes</button>
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle22" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
             </div>
         </div>
     </div>
 </div>
 
 
-<div class="modal fade" id="exampleModalToggle22" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+<div class="modal fade" id="exampleModalToggle22" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
     <div class="modal-dialog  modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn btn-primary" data-bs-target="#sombras" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body bg-image "
+                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras' frameborder="0"
+                    style="position:fixed; top:40px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+            </div>
+            <div class="modal-footer">
+
+            </div>
         </div>
-        <div class="modal-body">
-            <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras' frameborder="0"
-            style="position:fixed; top:40px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#sombras"data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-        </div>
-      </div>
     </div>
 </div>
-<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+<a class="btn hidden btn-primary" data-bs-toggle="modal" href="#sombras" role="button">Open first modal</a>
 
 
 

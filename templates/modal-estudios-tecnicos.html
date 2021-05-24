@@ -1,6 +1,17 @@
-{% for _, item in data.estudiotecnicos.items() %}
 
-<!-- Button trigger modal -->
+
+
+
+
+
+
+
+<!-- Estudios tecnicos -->
+<!-- Estudios tecnicos -->
+<!-- Estudios tecnicos -->
+<!-- Estudios tecnicos -->
+<!-- Estudios tecnicos -->
+{% for _, item in data.estudiotecnicos.items() %}
 <button hidden id="boton_estudiotecnico_{{ item.id }}" data-bs-target="#{{ item.id }}" type="button"
     class="btn btn-primary" data-bs-toggle="modal">
     Launch demo modal
@@ -12,7 +23,7 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <button class="btn btn-primary" data-bs-target="#exampleModalToggle22" data-bs-toggle="modal"
+                <button class="btn btn-primary" data-bs-target="#simulacionestudiotecnico_{{item.id}}" data-bs-toggle="modal"
                     data-bs-dismiss="modal">Nueva simulacion</button>
                 <!-- <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button"
                     onclick="location.href='{{estudiotecnico}}{{ item.id }}'"
@@ -38,13 +49,13 @@
 </div>
 
 
-<div class="modal fade" id="exampleModalToggle22" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+<div class="modal fade" id="simulacionestudiotecnico_{{item.id}}" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
     tabindex="-1">
     <div class="modal-dialog  modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <!-- <button class="btn btn-primary" data-bs-target="#{{ item.id }}" data-bs-toggle="modal"
-                    data-bs-dismiss="modal">Volver</button> -->
+                <button class="btn btn-primary" data-bs-target="#{{ item.id }}" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Informe</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
@@ -61,3 +72,17 @@
 </div>
 <a class="btn hidden btn-primary" data-bs-toggle="modal" href="#{{ item.id }}" role="button">Open first modal</a>
 {% endfor %}
+<!--fin Estudios tecnicos -->
+<!--fin Estudios tecnicos -->
+<!--fin Estudios tecnicos -->
+<!--fin Estudios tecnicos -->
+<!--fin Estudios tecnicos -->
+<!--fin Estudios tecnicos -->
+
+
+
+
+
+
+
+

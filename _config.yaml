@@ -139,6 +139,8 @@ red_socials:
 
 
 estudiotecnicos:
+# href --> mkdocs
+# id   --> zappa estudios tecnicos 
   estudiotecnico02:
     img: static/img/2021-03-18_20-18.png
     title: Ubicacion (Irradiacion, viento y rigor climatico)
@@ -150,7 +152,7 @@ estudiotecnicos:
     img: static/img/2021-02-11_02-40.png
     title: Perdidas_por_orientacion e inclinacion
     text: La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo.
-    href: _Estudio/Perdidas/Orientacion_Inclinacion/
+    href: _Estudio/Perdidas/orientacion/
     id: orientacion
 
   estudiotecnico4:
@@ -158,7 +160,7 @@ estudiotecnicos:
     title: Perdidas_por_sombras
     text: Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la
       banda de trayectorias del Sol a lo largo de todo el año
-    href: _Estudio/Perdidas/Sombras
+    href: _Estudio/Perdidas/sombras
     id: sombras
 
   # estudiotecnico01:

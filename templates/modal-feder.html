@@ -15,7 +15,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('{{ item.img }}');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('{{url_for('static', filename='img/loading-icon-animated-gif-9.gif')}}');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>{{ item.title }}</h1>
                 <h2> {{ item.text }} </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>

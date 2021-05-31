@@ -44,8 +44,15 @@ autoconsumos:
     img: static/img/solar-4478105_640.jpg
     title: Residencial
     text: El 65% de los ciudadanos viven en bloques de pisos y el derecho al autoconsumo compartido permite que las comunidades de vecinos puedan instalar paneles fotovoltáicos para abastecer a una parte o la totalidad del edificio. 
-    id: fv_residencial
-    href: fv_residencial
+    id: fv
+    href: fv
+
+  # autoconsumo2:
+  #   img: static/img/solar-4478105_640.jpg
+  #   title: Residencial
+  #   text: El 65% de los ciudadanos viven en bloques de pisos y el derecho al autoconsumo compartido permite que las comunidades de vecinos puedan instalar paneles fotovoltáicos para abastecer a una parte o la totalidad del edificio. 
+  #   id: fv_residencial
+  #   href: fv_residencial
 
   autoconsumo0:
     img: static/img/irrigation-588941_640.jpg
@@ -67,7 +74,12 @@ autoconsumos:
     text:  Los tomates y las placas solares no son excluyentes, con una adecuada instalacion pueden compartir tierra y luz, y en terrenos semiaridos funcionar de una manera más eficiente. 
     id: fv_bombeo
     href: contacto
-
+  autoconsumo42:
+    img: static/img/heating-3212503_640.jpg
+    title: Regulacion
+    text:  Los tomates y las placas solares no son excluyentes, con una adecuada instalacion pueden compartir tierra y luz, y en terrenos semiaridos funcionar de una manera más eficiente. 
+    id: regulacion
+    href: regulacion
 
 
 

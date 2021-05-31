@@ -1,3 +1,5 @@
+<!-- modal_autoconsumo -->
+
 {% for _, item in data.autoconsumos.items() %}
 
 <!-- Button trigger modal -->
@@ -5,6 +7,7 @@
     data-bs-toggle="modal">
     Launch demo modal
 </button>
+<!-- static/img/loading-icon-animated-gif-9.gif -->
 
 <!-- Modal -->
 <div id="{{ item.id }}" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -15,8 +18,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('{{ item.img }}');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                style="background-image: url('{{ item.img }}');filter: brightness(100%); width: 100% !important; height: 45vh;">
+            <div class="modal-body bg-image text-light " style="background-image: url('{{url_for('static', filename='img/loading-icon-animated-gif-9.gif')}}');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <div class="container">
                     <iframe src="{{formulario}}/{{item.href}}"
                         style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>

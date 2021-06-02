@@ -90,7 +90,7 @@
                         <h1>Residencial</h1>
                         <p>El 65% de los ciudadanos viven en bloques de pisos y el derecho al autoconsumo compartido permite que las comunidades de vecinos puedan instalar paneles fotovoltáicos para abastecer a una parte o la totalidad del edificio.</p>
                         <p></p>
-                        <p><a class="btn btn-lg btn-primary" href="#" onclick="document.getElementById('boton_autoconsumos_fv_residencial').click()" role="button">Ir</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#" onclick="document.getElementById('boton_autoconsumos_fv').click()" role="button">Ir</a></p>
                     </div>
                 </div>
             </div>
@@ -133,6 +133,20 @@
                         <p>Los tomates y las placas solares no son excluyentes, con una adecuada instalacion pueden compartir tierra y luz, y en terrenos semiaridos funcionar de una manera más eficiente.</p>
                         <p></p>
                         <p><a class="btn btn-lg btn-primary" href="#" onclick="document.getElementById('boton_autoconsumos_fv_bombeo').click()" role="button">Ir</a></p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="carousel-item">
+                <img class=" d-block w-100" style=" filter: brightness(50%); width: 100% !important; height: 45vh;" src='static/img/heating-3212503_640.jpg'
+                    alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Regulacion</h1>
+                        <p>Los tomates y las placas solares no son excluyentes, con una adecuada instalacion pueden compartir tierra y luz, y en terrenos semiaridos funcionar de una manera más eficiente.</p>
+                        <p></p>
+                        <p><a class="btn btn-lg btn-primary" href="#" onclick="document.getElementById('boton_autoconsumos_regulacion').click()" role="button">Ir</a></p>
                     </div>
                 </div>
             </div>
@@ -305,7 +319,7 @@
                 onclick="document.getElementById('boton_autoconsumos_recarga').click()">Autoconsumo.- Recarga de vehículos eléctricos</a></li>
             
             <li><a class="dropdown-item" href="#"
-                onclick="document.getElementById('boton_autoconsumos_fv_residencial').click()">Autoconsumo.- Residencial</a></li>
+                onclick="document.getElementById('boton_autoconsumos_fv').click()">Autoconsumo.- Residencial</a></li>
             
             <li><a class="dropdown-item" href="#"
                 onclick="document.getElementById('boton_autoconsumos_fv_bombeo').click()">Autoconsumo.- Bombeo</a></li>
@@ -315,6 +329,9 @@
             
             <li><a class="dropdown-item" href="#"
                 onclick="document.getElementById('boton_autoconsumos_fv_bombeo').click()">Autoconsumo.- Agro-Voltaica</a></li>
+            
+            <li><a class="dropdown-item" href="#"
+                onclick="document.getElementById('boton_autoconsumos_regulacion').click()">Autoconsumo.- Regulacion</a></li>
             
             
             <li><a class="dropdown-item" href="#"
@@ -536,7 +553,7 @@
         <div class="card-body">
           <h5 class="card-title">Residencial</h5>
           <p class="card-text">El 65% de los ciudadanos viven en bloques de pisos y el derecho al autoconsumo compartido permite que las comunidades de vecinos puedan instalar paneles fotovoltáicos para abastecer a una parte o la totalidad del edificio..</p>
-          <a href="#" onclick="document.getElementById('boton_fv_residencial').click()" class="stretched-link"></a>
+          <a href="#" onclick="document.getElementById('boton_fv').click()" class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
             <!-- <div class="btn-group">
@@ -594,6 +611,25 @@
           <h5 class="card-title">Agro-Voltaica</h5>
           <p class="card-text">Los tomates y las placas solares no son excluyentes, con una adecuada instalacion pueden compartir tierra y luz, y en terrenos semiaridos funcionar de una manera más eficiente..</p>
           <a href="#" onclick="document.getElementById('boton_fv_bombeo').click()" class="stretched-link"></a>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div> -->
+            <small class="text-muted">1 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+      <div class="card bg-light">
+        <img class="card-img-top" src='static/img/heating-3212503_640.jpg' class="img-fluid img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Regulacion</h5>
+          <p class="card-text">Los tomates y las placas solares no son excluyentes, con una adecuada instalacion pueden compartir tierra y luz, y en terrenos semiaridos funcionar de una manera más eficiente..</p>
+          <a href="#" onclick="document.getElementById('boton_regulacion').click()" class="stretched-link"></a>
 
           <div class="d-flex justify-content-between align-items-center">
             <!-- <div class="btn-group">
@@ -1226,6 +1262,8 @@
     text: IDAEenergia
     href: https://twitter.com/IDAEenergia/ -->
 
+<!-- modal_autoconsumo -->
+
 
 
 <!-- Button trigger modal -->
@@ -1233,6 +1271,7 @@
     data-bs-toggle="modal">
     Launch demo modal
 </button>
+<!-- static/img/loading-icon-animated-gif-9.gif -->
 
 <!-- Modal -->
 <div id="recarga" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1243,8 +1282,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/car-3117778_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                style="background-image: url('static/img/car-3117778_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <div class="container">
                     <iframe src="https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev/recarga"
                         style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
@@ -1259,13 +1297,14 @@
 
 
 <!-- Button trigger modal -->
-<button hidden id="boton_autoconsumos_fv_residencial" data-bs-target="#fv_residencial" type="button" class="btn btn-primary"
+<button hidden id="boton_autoconsumos_fv" data-bs-target="#fv" type="button" class="btn btn-primary"
     data-bs-toggle="modal">
     Launch demo modal
 </button>
+<!-- static/img/loading-icon-animated-gif-9.gif -->
 
 <!-- Modal -->
-<div id="fv_residencial" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+<div id="fv" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
@@ -1273,10 +1312,9 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-4478105_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                style="background-image: url('static/img/solar-4478105_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <div class="container">
-                    <iframe src="https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev/fv_residencial"
+                    <iframe src="https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev/fv"
                         style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
                 </div>
             </div>
@@ -1293,6 +1331,7 @@
     data-bs-toggle="modal">
     Launch demo modal
 </button>
+<!-- static/img/loading-icon-animated-gif-9.gif -->
 
 <!-- Modal -->
 <div id="fv_bombeo" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1303,8 +1342,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/irrigation-588941_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                style="background-image: url('static/img/irrigation-588941_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <div class="container">
                     <iframe src="https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev/fv_bombeo"
                         style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
@@ -1323,6 +1361,7 @@
     data-bs-toggle="modal">
     Launch demo modal
 </button>
+<!-- static/img/loading-icon-animated-gif-9.gif -->
 
 <!-- Modal -->
 <div id="fv_industrial" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1333,8 +1372,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-4824555_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                style="background-image: url('static/img/solar-4824555_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <div class="container">
                     <iframe src="https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev/fv_industrial"
                         style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
@@ -1353,6 +1391,7 @@
     data-bs-toggle="modal">
     Launch demo modal
 </button>
+<!-- static/img/loading-icon-animated-gif-9.gif -->
 
 <!-- Modal -->
 <div id="fv_bombeo" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1363,10 +1402,39 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/tomatoes-1561565_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
-                style="background-image: url('static/img/tomatoes-1561565_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <div class="container">
                     <iframe src="https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev/contacto"
+                        style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button hidden type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button hidden id="boton_autoconsumos_regulacion" data-bs-target="#regulacion" type="button" class="btn btn-primary"
+    data-bs-toggle="modal">
+    Launch demo modal
+</button>
+<!-- static/img/loading-icon-animated-gif-9.gif -->
+
+<!-- Modal -->
+<div id="regulacion" class="modal fade" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+                <div class="container">
+                    <iframe src="https://8mrc6bvy5a.execute-api.eu-west-1.amazonaws.com/dev/regulacion"
                         style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
                 </div>
             </div>
@@ -1552,14 +1620,6 @@
     </div>
 </div>
 
-
-
-
-
-
-
-
-
 <!-- Estudios tecnicos -->
 <!-- Estudios tecnicos -->
 <!-- Estudios tecnicos -->
@@ -1577,15 +1637,15 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <button class="btn btn-primary" data-bs-target="#simulacionestudiotecnico_ubicacion" data-bs-toggle="modal"
-                    data-bs-dismiss="modal">Nueva simulacion</button>
+                <button class="btn btn-primary" data-bs-target="#simulacionestudiotecnico_ubicacion"
+                    data-bs-toggle="modal" data-bs-dismiss="modal">Nueva simulacion</button>
                 <!-- <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button"
                     onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/ubicacion'"
                     class="btn btn-success">simulacion</button> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image "
-            style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
                 <!-- <div class="modal-body bg-image"> -->
                 <!-- <h1>Ubicacion (Irradiacion, viento y rigor climatico)</h1>
                 <h2> HSP mide la irradiación solar y se define como la energía por unidad de superficie que se recibiría con una hipotética irradiancia solar constante de 1000 W/m² durante un dia </h2>
@@ -1603,8 +1663,8 @@
 </div>
 
 
-<div class="modal fade" id="simulacionestudiotecnico_ubicacion" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-    tabindex="-1">
+<div class="modal fade" id="simulacionestudiotecnico_ubicacion" aria-hidden="true"
+    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
     <div class="modal-dialog  modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -1613,8 +1673,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <div class="modal-body bg-image "
-                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/ubicacion' frameborder="0"
                     style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
             </div>
@@ -1637,15 +1696,15 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <button class="btn btn-primary" data-bs-target="#simulacionestudiotecnico_orientacion" data-bs-toggle="modal"
-                    data-bs-dismiss="modal">Nueva simulacion</button>
+                <button class="btn btn-primary" data-bs-target="#simulacionestudiotecnico_orientacion"
+                    data-bs-toggle="modal" data-bs-dismiss="modal">Nueva simulacion</button>
                 <!-- <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button"
                     onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion'"
                     class="btn btn-success">simulacion</button> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image "
-            style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
                 <!-- <div class="modal-body bg-image"> -->
                 <!-- <h1>Perdidas_por_orientacion e inclinacion</h1>
                 <h2> La radiación solar incidente es maxima en el periodo diario, hacia el sur, pero el coste puede estar optimizado en otra orientacion por restriciones de instalacion o consumo. </h2>
@@ -1663,8 +1722,8 @@
 </div>
 
 
-<div class="modal fade" id="simulacionestudiotecnico_orientacion" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-    tabindex="-1">
+<div class="modal fade" id="simulacionestudiotecnico_orientacion" aria-hidden="true"
+    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
     <div class="modal-dialog  modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -1673,8 +1732,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <div class="modal-body bg-image "
-                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/orientacion' frameborder="0"
                     style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
             </div>
@@ -1697,15 +1755,15 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <button class="btn btn-primary" data-bs-target="#simulacionestudiotecnico_sombras" data-bs-toggle="modal"
-                    data-bs-dismiss="modal">Nueva simulacion</button>
+                <button class="btn btn-primary" data-bs-target="#simulacionestudiotecnico_sombras"
+                    data-bs-toggle="modal" data-bs-dismiss="modal">Nueva simulacion</button>
                 <!-- <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" type="button"
                     onclick="location.href='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras'"
                     class="btn btn-success">simulacion</button> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-image "
-            style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
                 <!-- <div class="modal-body bg-image"> -->
                 <!-- <h1>Perdidas_por_sombras</h1>
                 <h2> Representación del perfil de obstáculos en el diagrama de la figura 5, en el que se muestra la banda de trayectorias del Sol a lo largo de todo el año </h2>
@@ -1723,8 +1781,8 @@
 </div>
 
 
-<div class="modal fade" id="simulacionestudiotecnico_sombras" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-    tabindex="-1">
+<div class="modal fade" id="simulacionestudiotecnico_sombras" aria-hidden="true"
+    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
     <div class="modal-dialog  modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
@@ -1733,8 +1791,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-            <div class="modal-body bg-image "
-                style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; ">
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <iframe src='https://oqm1xarum4.execute-api.eu-west-1.amazonaws.com/dev/sombras' frameborder="0"
                     style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
             </div>
@@ -1754,14 +1811,6 @@
 <!--fin Estudios tecnicos -->
 
 
-
-
-
-
-
-
-
-
 <!-- Button trigger modal -->
 <button hidden id="boton_proyectop_fotovoltaico" data-bs-target="#p_fotovoltaico" type="button" class="btn btn-primary"
     data-bs-toggle="modal">
@@ -1777,7 +1826,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-4478105_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>fotovoltaico</h1>
                 <h2> Define junto a tu asesor energético tus necesidades y preferencias, te ofrecerá siempre la mejor solución. </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -1809,7 +1858,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/irrigation-588941_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>FV conectada</h1>
                 <h2> El rendimiento de una instalación fotovoltaica de bombeo solar puede ser magnificado con el empleo de convertidores de frecuencia, que permiten aprovechar al máximo las horas que la bomba de agua está trabajando, variando así su frecuencia de salida en función de la radiación solar incidente en cada momento.. </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -1842,7 +1891,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-cells-191686_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>PREE Energía solar térmica</h1>
                 <h2> Sustitución energía convencional por energía solar térmica </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -1874,7 +1923,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/biomass-440392_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>PREE biomasa</h1>
                 <h2> Sustitución de energía convencional por biomasa en las instalaciones térmicas. </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -1906,7 +1955,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/heating-3212503_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>PREE subsistemas de generación</h1>
                 <h2> Mejora de la eficiencia energética de los subsistemas de generación no incluidos anteriormente, como la bomba de calor. </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -1938,7 +1987,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/tablet-2471184_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>PREE subsistemas de distribución, regulación, control</h1>
                 <h2> Mejora de la eficiencia energética de subsistemas de distribución, regulación, control y emisión de las instalaciones térmicas. </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -1970,7 +2019,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/light-1030988_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>PREE iluminación</h1>
                 <h2> Mejora de las instalaciones de iluminación. </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -2003,7 +2052,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-4824555_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>FEDER solar fotovoltaica</h1>
                 <h2> Inversión en instalaciones de producción de energía eléctrica de tecnología solar fotovoltaica </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -2035,7 +2084,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/solar-panel-918492_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>FEDER sector industrial</h1>
                 <h2> PYME y gran empresa sector industrial </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -2067,7 +2116,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/energy-3125125_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>FEDER energía térmica</h1>
                 <h2> Instalaciones de producción de energía térmica con fuentes de energía renovable </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -2099,7 +2148,7 @@
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">volver</button>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body bg-image text-light " style="background-image: url('static/img/car-3117778_640.jpg');filter: brightness(100%); width: 100% !important; height: 45vh;" >
+            <div class="modal-body bg-image text-light " style="background-image: url('/static/img/loading-icon-animated-gif-9.gif');filter: brightness(100%); width: 100% !important; height: 45vh;" >
                 <h1>FEDER VE MOVALT</h1>
                 <h2> Implantación de recarga de VE MOVALT infraestructura </h2>
                 <p>A vuelta de correo, y sin ningun compromiso, le enviaremos un estudio preliminar</p>
@@ -2684,14 +2733,14 @@ data-bs-target="#privacidadq" class="stretched-link"> Ver</button>
             </a>
         </li>
         <li class="postit">
-            <a href="#" onclick="document.getElementById('boton_estudiotecnico_p_fotovoltaico').click()">
+            <a href="#" onclick="document.getElementById('boton_autoconsumos_fv').click()">
                 <center>
                     <p>FV Estudio de Viabilidad</p>
                 </center>
             </a>
         </li>
         <li class="postit">
-            <a href="#" onclick="document.getElementById('boton_PREEs_control').click()">
+            <a href="#" onclick="document.getElementById('boton_autoconsumos_regulacion').click()">
                 <center>
                     <p>PREE Regulacion y control</p>
                 </center>
